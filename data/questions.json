@@ -2,11 +2,11 @@
   "chapters": [
     {
       "id": "general-bank",
-      "title": "بنك أسئلة عام (من ملف DexNova PMP)",
+      "title": "اختر مستوى صعوبة الأسئلة",
       "questions": [
         {
           "id": "gen-q001",
-          "level": "medium",
+          "level": "easy",
           "question": "Which of the following statements BEST describes how stakeholders are involved on a project?",
           "options": [
             "They determine the project schedule, deliverables, and requirements.",
@@ -19,7 +19,7 @@
         },
         {
           "id": "gen-q002",
-          "level": "medium",
+          "level": "easy",
           "question": "In a projectized organization, the project team:",
           "options": [
             "Reports to many bosses",
@@ -58,7 +58,7 @@
         },
         {
           "id": "gen-q005",
-          "level": "medium",
+          "level": "easy",
           "question": "Who has the MOST power in a projectized organization?",
           "options": [
             "The project manager",
@@ -71,7 +71,7 @@
         },
         {
           "id": "gen-q006",
-          "level": "medium",
+          "level": "easy",
           "question": "The project life cycle differs from the product life cycle in that the project life cycle:",
           "options": [
             "Does not incorporate a methodology.",
@@ -84,7 +84,7 @@
         },
         {
           "id": "gen-q007",
-          "level": "medium",
+          "level": "easy",
           "question": "A market demand, a business need, and /or legal requirement are examples of:",
           "options": [
             "Reasons to hire a project manager.",
@@ -97,7 +97,7 @@
         },
         {
           "id": "gen-q008",
-          "level": "medium",
+          "level": "easy",
           "question": "What is a program?",
           "options": [
             "An initiative set up by management",
@@ -110,7 +110,7 @@
         },
         {
           "id": "gen-q009",
-          "level": "medium",
+          "level": "easy",
           "question": "Operational work is different from project work in that it is:",
           "options": [
             "Unique",
@@ -136,7 +136,7 @@
         },
         {
           "id": "gen-q011",
-          "level": "medium",
+          "level": "easy",
           "question": "In which project management process is the detailed project budget created?",
           "options": [
             "Initiating",
@@ -149,7 +149,7 @@
         },
         {
           "id": "gen-q012",
-          "level": "medium",
+          "level": "easy",
           "question": "The project charter is created in which project management process group?",
           "options": [
             "Executing",
@@ -162,7 +162,7 @@
         },
         {
           "id": "gen-q013",
-          "level": "medium",
+          "level": "easy",
           "question": "A detailed project schedule can be created only after the :",
           "options": [
             "Project budget",
@@ -188,7 +188,7 @@
         },
         {
           "id": "gen-q015",
-          "level": "medium",
+          "level": "hard",
           "question": "A project manager gets a call from a team member notifying him that there is a variance between the speed of a system on the project and the desired or planned speed. The project manager is surprised because that performance measurement was not identified in planning. If the project manager then evaluates whether the variance warrant a response, he is in which part of the project management process?",
           "options": [
             "Initiating",
@@ -214,7 +214,7 @@
         },
         {
           "id": "gen-q017",
-          "level": "medium",
+          "level": "easy",
           "question": "Which process must be included in every project?",
           "options": [
             "Planning, executing, and closing",
@@ -227,7 +227,7 @@
         },
         {
           "id": "gen-q018",
-          "level": "medium",
+          "level": "easy",
           "question": "Control schedule, Report performance, and Administer procurements are in which process group?",
           "options": [
             "Initiating",
@@ -240,7 +240,7 @@
         },
         {
           "id": "gen-q019",
-          "level": "medium",
+          "level": "easy",
           "question": "Which process group focuses on completing the requirements of the project?",
           "options": [
             "Initiating",
@@ -253,7 +253,7 @@
         },
         {
           "id": "gen-q020",
-          "level": "medium",
+          "level": "easy",
           "question": "All of the following occur during the planning process EXCEPT:",
           "options": [
             "Develop project charter",
@@ -266,7 +266,7 @@
         },
         {
           "id": "gen-q021",
-          "level": "medium",
+          "level": "easy",
           "question": "Effective project integration usually requires an emphasis on:",
           "options": [
             "The personal careers of the team members",
@@ -279,7 +279,7 @@
         },
         {
           "id": "gen-q022",
-          "level": "medium",
+          "level": "easy",
           "question": "The need for --- is one of the major driving forces for communication in a project.",
           "options": [
             "Optimization",
@@ -292,7 +292,7 @@
         },
         {
           "id": "gen-q023",
-          "level": "medium",
+          "level": "easy",
           "question": "Which of the following describes the BEST use of historical records from previous projects?",
           "options": [
             "Estimating ,life cycle costing, and project planning",
@@ -305,7 +305,7 @@
         },
         {
           "id": "gen-q024",
-          "level": "medium",
+          "level": "easy",
           "question": "When it comes to changes, the project manager’s attention is BEST focused on:",
           "options": [
             "Making changes",
@@ -318,7 +318,7 @@
         },
         {
           "id": "gen-q025",
-          "level": "medium",
+          "level": "hard",
           "question": "A project manager has managed four projects for the company and is being considered to join the project management office team. The following is discovered during the evaluation of his performance. The project manager’s first project had an ending cost variance of -500, used two critical resources, needed to rework the project charter during project executing, and was ranked 14 th in priority within the company. The scond project finished with a schedule variance of +100, was completed with a vastly compressed schedule, and received a letter of recommendation from the sponsor, but the product of the project was not used. The third project had 23 percent more changes than expected, had an SPI of 0.90, and 25 open items in the issue log when the project was completed. Each of these projects had cost budget of $10,000 and 20 to 28 percent more changes than others of its size. The project management office decided not to add this project manager to the team. Which of the following BEST describes why this might have happened?",
           "options": [
             "The project manager has only managed low-priority projects, and he had to compress the schedule, showing that he does not have the skills to work in the project management office",
@@ -331,7 +331,7 @@
         },
         {
           "id": "gen-q026",
-          "level": "medium",
+          "level": "easy",
           "question": "All of the following are parts of an effective change management plan EXCEPT",
           "options": [
             "Procedures.",
@@ -344,7 +344,7 @@
         },
         {
           "id": "gen-q027",
-          "level": "medium",
+          "level": "easy",
           "question": "A work authorization system can be used to.",
           "options": [
             "Manage who does each activity.",
@@ -370,7 +370,7 @@
         },
         {
           "id": "gen-q029",
-          "level": "medium",
+          "level": "easy",
           "question": "All of the following are parts of the Direct and Manage Project Execution process EXCEPT:",
           "options": [
             "Identifying changes.",
@@ -383,7 +383,7 @@
         },
         {
           "id": "gen-q030",
-          "level": "medium",
+          "level": "hard",
           "question": "Your company can accept one of the three possible projects. Project A has a net present value (NPV) of US $30,000 and will take six years to complete. Project B has an NPV of US $ 60,000 and will take three years to complete. Project C has an NPV of US$ 90,000 and will take four years to complete. Based on this information, which project should the company choose?",
           "options": [
             "They all have the same value.",
@@ -422,7 +422,7 @@
         },
         {
           "id": "gen-q033",
-          "level": "medium",
+          "level": "hard",
           "question": "The construction phase of a new software product is near completion. The next phases are testing and implementation. The project is two weeks ahead of schedule. Which of the following processes should the project manager be MOST concerned with before moving on to the final phase?",
           "options": [
             "Verify scope",
@@ -435,7 +435,7 @@
         },
         {
           "id": "gen-q034",
-          "level": "medium",
+          "level": "hard",
           "question": "You are managing a six-month project and have held bi-weekly meetings with your project stakeholders. After five-and-a-half months of work, the project is on schedule and budget, but the stakeholders ate not satisfied with the deliverables. This situation will delay the project completion by one month. The MOST important process that could have prevented this situation is:",
           "options": [
             "Monitor and control Risks.",
@@ -448,7 +448,7 @@
         },
         {
           "id": "gen-q035",
-          "level": "medium",
+          "level": "easy",
           "question": "All of the following are parts of the scope baseline EXCEPT the :",
           "options": [
             "Scope management plan.",
@@ -461,7 +461,7 @@
         },
         {
           "id": "gen-q036",
-          "level": "medium",
+          "level": "hard",
           "question": "The cost performance index (CPI) on the project is 1.13 and the benefit cost ratio (BCR) is 1.2. the project scope was created by the team and stakeholders. Requirements on the project have been changing throughout the project. No matter what the project manager has tried to accomplish in managing the project, which of the following is he MOST likely to face in the future.",
           "options": [
             "Having to cut costs on the project and increase benefits.",
@@ -474,7 +474,7 @@
         },
         {
           "id": "gen-q037",
-          "level": "medium",
+          "level": "easy",
           "question": "Verify scope is closely related to:",
           "options": [
             "Perform Quality control.",
@@ -487,7 +487,7 @@
         },
         {
           "id": "gen-q038",
-          "level": "medium",
+          "level": "easy",
           "question": "Which of the following can create the MOST misinterpretation of the project scope statement?",
           "options": [
             "Imprecise language",
@@ -500,7 +500,7 @@
         },
         {
           "id": "gen-q039",
-          "level": "medium",
+          "level": "easy",
           "question": "Which of the following is CORRECT in regard to the control Scope process?",
           "options": [
             "Effective scope definition can lead to a more complete project scope statement",
@@ -513,7 +513,7 @@
         },
         {
           "id": "gen-q040",
-          "level": "medium",
+          "level": "easy",
           "question": "Which of the following BEST describes the verify scope process?",
           "options": [
             "It provides assurance that the deliverables meets the specifications, is an input to the project management plan, and is an output of perform Quality control.",
@@ -526,7 +526,7 @@
         },
         {
           "id": "gen-q041",
-          "level": "medium",
+          "level": "hard",
           "question": "If the optimistic estimate for an activity is 23 days, and the pessimistic estimate is 18 days, what is the standard deviation of this activity?",
           "options": [
             "I",
@@ -539,7 +539,7 @@
         },
         {
           "id": "gen-q042",
-          "level": "medium",
+          "level": "easy",
           "question": "A heuristic is BEST described as a:",
           "options": [
             "Control tool",
@@ -552,7 +552,7 @@
         },
         {
           "id": "gen-q043",
-          "level": "medium",
+          "level": "easy",
           "question": "Lag means:",
           "options": [
             "The amount of time an activity can be delayed without delaying the project finish date.",
@@ -578,7 +578,7 @@
         },
         {
           "id": "gen-q045",
-          "level": "medium",
+          "level": "easy",
           "question": "What is the duration of a milestone?",
           "options": [
             "It is shorter than the duration of the longest activity",
@@ -617,7 +617,7 @@
         },
         {
           "id": "gen-q048",
-          "level": "medium",
+          "level": "easy",
           "question": "Rearranging resources so that a constant number of resources is used each month is called:",
           "options": [
             "Crashing",
@@ -630,7 +630,7 @@
         },
         {
           "id": "gen-q049",
-          "level": "medium",
+          "level": "easy",
           "question": "Which of the following is a benefit of an analogue project estimate?",
           "options": [
             "It will be closer to what the work will actually require",
@@ -656,7 +656,7 @@
         },
         {
           "id": "gen-q051",
-          "level": "medium",
+          "level": "hard",
           "question": "If earned value (EV)= 350, actual cost (AC)= 400, planned value (PV)= 325, what is cost variance (CV)?",
           "options": [
             "350",
@@ -669,7 +669,7 @@
         },
         {
           "id": "gen-q052",
-          "level": "medium",
+          "level": "easy",
           "question": "Analogous estimating:",
           "options": [
             "Uses bottom-up estimating techniques",
@@ -682,7 +682,7 @@
         },
         {
           "id": "gen-q053",
-          "level": "medium",
+          "level": "easy",
           "question": "All of the following are outputs of the Estimate Costs process Except:",
           "options": [
             "An understanding of the cost risk in the work that has been estimated",
@@ -695,7 +695,7 @@
         },
         {
           "id": "gen-q054",
-          "level": "medium",
+          "level": "hard",
           "question": "A cost performance index (CPI) of 0.89 means:",
           "options": [
             "At this time, we expect the total project to cost 89 percent more than planned.",
@@ -708,7 +708,7 @@
         },
         {
           "id": "gen-q055",
-          "level": "medium",
+          "level": "hard",
           "question": "A schedule performance index (SPI) of 0.76 means:",
           "options": [
             "You are over budget.",
@@ -721,7 +721,7 @@
         },
         {
           "id": "gen-q056",
-          "level": "medium",
+          "level": "easy",
           "question": "Which of the following is an example of a parametric estimate?",
           "options": [
             "Dollars per module",
@@ -734,7 +734,7 @@
         },
         {
           "id": "gen-q057",
-          "level": "medium",
+          "level": "easy",
           "question": "Which type of cost is team training",
           "options": [
             "Direct",
@@ -760,7 +760,7 @@
         },
         {
           "id": "gen-q059",
-          "level": "medium",
+          "level": "easy",
           "question": "Identified risks are:",
           "options": [
             "An input to the Estimated cost process",
@@ -773,7 +773,7 @@
         },
         {
           "id": "gen-q060",
-          "level": "medium",
+          "level": "easy",
           "question": "Cost risk means:",
           "options": [
             "There are risks that will cost the project money",
@@ -786,7 +786,7 @@
         },
         {
           "id": "gen-q061",
-          "level": "medium",
+          "level": "easy",
           "question": "Quality is:",
           "options": [
             "Meeting and exceeding the customer’s expectation",
@@ -799,7 +799,7 @@
         },
         {
           "id": "gen-q062",
-          "level": "medium",
+          "level": "easy",
           "question": "All the following are tools of perform Quality Control EXCEPT:",
           "options": [
             "Inspection",
@@ -812,7 +812,7 @@
         },
         {
           "id": "gen-q063",
-          "level": "medium",
+          "level": "easy",
           "question": "Pareto charts help the project manager:",
           "options": [
             "Focus on the most critical issues to improve quality",
@@ -825,7 +825,7 @@
         },
         {
           "id": "gen-q064",
-          "level": "medium",
+          "level": "easy",
           "question": "A control chart helps the project manager:",
           "options": [
             "A Focus on the most critical issues to improve quality",
@@ -838,7 +838,7 @@
         },
         {
           "id": "gen-q065",
-          "level": "medium",
+          "level": "easy",
           "question": "Testing the entire population would:",
           "options": [
             "Take long",
@@ -851,7 +851,7 @@
         },
         {
           "id": "gen-q066",
-          "level": "medium",
+          "level": "easy",
           "question": "All of the following are examples of the cost of nonconformance EXCEPT:",
           "options": [
             "Rework",
@@ -864,7 +864,7 @@
         },
         {
           "id": "gen-q067",
-          "level": "medium",
+          "level": "hard",
           "question": "Standard deviation is a measure of how:",
           "options": [
             "Far the estimate is from the highest estimate",
@@ -877,7 +877,7 @@
         },
         {
           "id": "gen-q068",
-          "level": "medium",
+          "level": "hard",
           "question": "What percentage of the total distribution is 3 sigma from the mean equal to?",
           "options": [
             "68.27 percent",
@@ -890,7 +890,7 @@
         },
         {
           "id": "gen-q069",
-          "level": "medium",
+          "level": "easy",
           "question": "A control chart shows seven data points in a row on one side of the mean. What should be done?",
           "options": [
             "Perform a design of experiments",
@@ -903,7 +903,7 @@
         },
         {
           "id": "gen-q070",
-          "level": "medium",
+          "level": "easy",
           "question": "Design of experiments:",
           "options": [
             "Identifies which variables will have the most influence on a quality outcome.",
@@ -981,7 +981,7 @@
         },
         {
           "id": "gen-q076",
-          "level": "medium",
+          "level": "hard",
           "question": "The project cost performance index (CPI) is 1.02, the benefit cost ratio (BCR) is 1.7, and the latest round of performance reviews identified few needed adjustments. The project team was co-located into a new building when the project started. Everyone commented on how excited they were to have all new facilities. The sponsor is providing adequate support for the project, and few unidentified risk have occurred. In an attempt to improve performance, the project manager spends part of the poject budgets on new chairs for the team members and adds the term “senior” to each team member’s job title. Which of the following is the MOST correct thing that can be said of this project or the project manager",
           "options": [
             "The project manager has misunderstood Herzberg’s theory",
@@ -994,7 +994,7 @@
         },
         {
           "id": "gen-q077",
-          "level": "medium",
+          "level": "easy",
           "question": "The management theory which states that people can direct their own efforts is:",
           "options": [
             "Theory Y",
@@ -1007,7 +1007,7 @@
         },
         {
           "id": "gen-q078",
-          "level": "medium",
+          "level": "easy",
           "question": "Which of the following aspects of leaderships is MOST important for a project manager?",
           "options": [
             "Communication",
@@ -1020,7 +1020,7 @@
         },
         {
           "id": "gen-q079",
-          "level": "medium",
+          "level": "hard",
           "question": "The project manager is looking at the project’s resource needs and lessons learned from past projects. This information causes the project manager to be concerned about the ability to acquire enough resources for the project in six months. Which of the following would be the LEAST effective preventive action?",
           "options": [
             "Make sure functional managers have a copy of the resource histogram",
@@ -1033,7 +1033,7 @@
         },
         {
           "id": "gen-q080",
-          "level": "medium",
+          "level": "hard",
           "question": "A large project is underway when one of the team members reviews the project status report. He sees the project is currently running late. As he looks at the report further, he notices the delay will cause one of his activities to be schedule during a time he will be out of the country and cannot work on the activity. This is of great concern to the team member because he is very committed to the success of the project and he does not want to be the cause of the project being further delayed. What is the BEST THING for him to do?",
           "options": [
             "Contract the project manager immediately to provide the project manager with his schedule",
@@ -1046,7 +1046,7 @@
         },
         {
           "id": "gen-q081",
-          "level": "medium",
+          "level": "easy",
           "question": "Extensive use of----------- communication is most likely to aid in solving complex problems.",
           "options": [
             "Verbal",
@@ -1059,7 +1059,7 @@
         },
         {
           "id": "gen-q082",
-          "level": "medium",
+          "level": "easy",
           "question": "Communication are often enhanced when the sender ---------- the receiver",
           "options": [
             "Speaks up to",
@@ -1072,7 +1072,7 @@
         },
         {
           "id": "gen-q083",
-          "level": "medium",
+          "level": "easy",
           "question": "Formal written correspondence with the customer is required when:",
           "options": [
             "Defects are detected",
@@ -1085,7 +1085,7 @@
         },
         {
           "id": "gen-q084",
-          "level": "medium",
+          "level": "hard",
           "question": "Changes to some project deliverables have been documented in the project management plan. These changes, and other project information, have been distributed according to the communication management plan. One stakeholder expressed surprise to the project manager upon hearing of a documented change to a project deliverable. All stakeholders received the communication containing notification of the change. What should the project manager do?",
           "options": [
             "Determine why the stakeholder did not receive the information and let him know when it was published",
@@ -1124,7 +1124,7 @@
         },
         {
           "id": "gen-q087",
-          "level": "medium",
+          "level": "easy",
           "question": "All of the following are factors in the assessment of project risk EXCEPT",
           "options": [
             "Risk events",
@@ -1137,7 +1137,7 @@
         },
         {
           "id": "gen-q088",
-          "level": "medium",
+          "level": "hard",
           "question": "The project manager is expecting a deliverable to be submitted by e-mail from a team member today. At the end of the day, the project manager contacts the team member to notify him that it has not been received. The team member apologizes and explains that he was not able to e-mail the deliverable, and it was sent through mail instead. The team member goes on to remind the project manager that he had informed the project manager during a phone conversation that this would occur. “Was that the conversation we had when I told you I could not hear you well due to poor cell phone coverage?” ask the project manager. “Yes,” replied the team member. What could have been done to avoid this problem?",
           "options": [
             "Para lingual communication",
@@ -1150,7 +1150,7 @@
         },
         {
           "id": "gen-q089",
-          "level": "medium",
+          "level": "easy",
           "question": "When do stakeholders have the MOST influence on a project",
           "options": [
             "At the beginning of the project",
@@ -1163,7 +1163,7 @@
         },
         {
           "id": "gen-q090",
-          "level": "medium",
+          "level": "easy",
           "question": "Stakeholders can be identified in which project management process",
           "options": [
             "Initiating, planning, executing, monitoring and controlling, and closing",
@@ -1189,7 +1189,7 @@
         },
         {
           "id": "gen-q092",
-          "level": "medium",
+          "level": "hard",
           "question": "If a project has a 60 percent chance of a US$100,000 profit and a 40 percent chance of a US $100,000 loss, the expected monetary value (EMV) for the project is:",
           "options": [
             "$100,000 profit",
@@ -1202,7 +1202,7 @@
         },
         {
           "id": "gen-q093",
-          "level": "medium",
+          "level": "easy",
           "question": "What should be done with risk on the watchlist?",
           "options": [
             "Document them for historical use on other projects",
@@ -1215,7 +1215,7 @@
         },
         {
           "id": "gen-q094",
-          "level": "medium",
+          "level": "easy",
           "question": "Purchasing insurance is BEST considered an example of risk:",
           "options": [
             "Mitigation",
@@ -1228,7 +1228,7 @@
         },
         {
           "id": "gen-q095",
-          "level": "medium",
+          "level": "easy",
           "question": "During which risk management process is a determination to transfer a risk made?",
           "options": [
             "Identify Risk",
@@ -1241,7 +1241,7 @@
         },
         {
           "id": "gen-q096",
-          "level": "medium",
+          "level": "hard",
           "question": "You are a project manager for the construction of a major new manufacturing plant that has never been done before. The project cost is estimated at US$30,000,000 and will make use of three sellers. Once begun, the project cannot be cancelled, as there will be a large expenditure on plant and equipment. As the project manager, it is MOST important to carefully:",
           "options": [
             "Review all cost proposal from the sellers",
@@ -1254,7 +1254,7 @@
         },
         {
           "id": "gen-q097",
-          "level": "medium",
+          "level": "hard",
           "question": "Your team has come up with 434 risks and 16 major causes of those isks. The project is the last in a series of projects that the team has worked on together. The sponsor is very supportive, and a lot of time was invested in making sure the project work was completed and signed off by all key stakeholders. During project planning, the team cannot come up with an effective way to mitigate o insure against a risk. It is not work that can be outsourced, nor can it be deleted. What would be the BEST solution?",
           "options": [
             "Accept the risk",
@@ -1280,7 +1280,7 @@
         },
         {
           "id": "gen-q099",
-          "level": "medium",
+          "level": "easy",
           "question": "Monte Carlo analysis is used to :",
           "options": [
             "Get an indication of the risk involved in the project",
@@ -1293,7 +1293,7 @@
         },
         {
           "id": "gen-q100",
-          "level": "medium",
+          "level": "hard",
           "question": "During the identify Risks process, a project manager made a long list of risk identified by all the stakeholders using various methods. He then made sure all the risks were understood and that triggers had been identified. Later, in the plan Risk Response process, he took all the risks identified by the stakeholders and determined ways to mitigate them. What has he done wrong?",
           "options": [
             "The project manager should have waited until the perform Qualitative Analysis process to get the stakeholders involved.",
@@ -1306,7 +1306,7 @@
         },
         {
           "id": "gen-q101",
-          "level": "medium",
+          "level": "easy",
           "question": "What are the project management process groups?",
           "options": [
             "Initiating, developing, implementing, supporting",
@@ -1384,7 +1384,7 @@
         },
         {
           "id": "gen-q107",
-          "level": "medium",
+          "level": "hard",
           "question": "People from business development department are the only ones completing a project. Whenever a question arises, they are passed to the heads of other departments, to the people in these departments, and then back to the business development department. This is causing delays on the project. Why might this method of communicating be happening?",
           "options": [
             "The communications management plan is not clear.",
@@ -1397,7 +1397,7 @@
         },
         {
           "id": "gen-q108",
-          "level": "medium",
+          "level": "easy",
           "question": "How does risk affect a project?",
           "options": [
             "It is uncertain event that if it occurs has a positive or negative effect on at least one project objective.",
@@ -1423,7 +1423,7 @@
         },
         {
           "id": "gen-q110",
-          "level": "medium",
+          "level": "easy",
           "question": "A detailed project schedule can be created only after creating the:",
           "options": [
             "Project budget",
@@ -1436,7 +1436,7 @@
         },
         {
           "id": "gen-q111",
-          "level": "medium",
+          "level": "hard",
           "question": "A project manager gets a call from a team member notifying the project manager that there is variance between the speed of a system on the project and the desired or planned speed. The project manager is surprised because that performance measurement was not identified in planning. If the project manager then evaluates whether the variance warrants a response, the project manager is in what project management process?",
           "options": [
             "Initiating",
@@ -1449,7 +1449,7 @@
         },
         {
           "id": "gen-q112",
-          "level": "medium",
+          "level": "easy",
           "question": "In which project management process group is the detailed project budget created?",
           "options": [
             "Initiating",
@@ -1462,7 +1462,7 @@
         },
         {
           "id": "gen-q113",
-          "level": "medium",
+          "level": "hard",
           "question": "During the completion of project work, the sponsor asks the project manager to report on how the project is going. In order to prepare the report, the project manager asks all the team members what percent complete their work is. There is one team member who has been hard to manage from the beginning. In response to being asked what percent complete he is, the team member asks, “Percent complete of what?” Having been tired of such comments, the project manager reports to the team member’s boss that the team member is not cooperating. Which of the following is likely to be the real problem.",
           "options": [
             "The project manager did not get buy-in from the manager for the resource on the project.",
@@ -1475,7 +1475,7 @@
         },
         {
           "id": "gen-q114",
-          "level": "medium",
+          "level": "easy",
           "question": "Which of the following is NOT an input to the initiating process group?",
           "options": [
             "Company processes",
@@ -1488,7 +1488,7 @@
         },
         {
           "id": "gen-q115",
-          "level": "medium",
+          "level": "easy",
           "question": "In what type of organization are employees grouped by specialty?",
           "options": [
             "Projectized",
@@ -1501,7 +1501,7 @@
         },
         {
           "id": "gen-q116",
-          "level": "medium",
+          "level": "easy",
           "question": "Which of the following BEST describe the role of the PMO?",
           "options": [
             "They supply project managers for projects.",
@@ -1527,7 +1527,7 @@
         },
         {
           "id": "gen-q118",
-          "level": "medium",
+          "level": "hard",
           "question": "Your project has a cost performance index (CPI) of 1.1 and a schedule performance index (SPI) of 1.03 and has completed to the customer’s satisfaction all the deliverables to date. Getting formal acceptance of the project management plan was difficult because the schedule was compressed beyond reason. Activity B has float of 2 weeks, activity C has float of zero, activity D has zero float and activity E is being done by a new employee and has float of 3 weeks. The hardest part of the project is about to start and even the project management office has asked you to increase your management oversight and report more often on the status of the project. In preparing your report you find out that the team member completing activity E reports a one day delay, the team member completing activity B tells you his activity will be delayed by two days because the customer has delayed formal acceptance during scope verification. Another team member reports that the earned value-related trend report is favourable. What would you do if you were the project manager?",
           "options": [
             "Investigate why it was difficult to get formal acceptance of the project management pan and whether that problem added any risks to the project.",
@@ -1540,7 +1540,7 @@
         },
         {
           "id": "gen-q119",
-          "level": "medium",
+          "level": "hard",
           "question": "You are the project manager for a new international project, and your project team includes people from four countries. Most of the team members have not worked on similar projects before, but the project has strong support from the senior management. What is the BEST thing to do to ensure that cultural differences do not interfere with the projects?",
           "options": [
             "Spend a little time creating the work breakdown structure and make sure it is complete.",
@@ -1553,7 +1553,7 @@
         },
         {
           "id": "gen-q120",
-          "level": "medium",
+          "level": "easy",
           "question": "Integrate is done by the:",
           "options": [
             "Project manager",
@@ -1566,7 +1566,7 @@
         },
         {
           "id": "gen-q121",
-          "level": "medium",
+          "level": "easy",
           "question": "What is the BEST technique to ensure the project work is really complete?",
           "options": [
             "Final performance reporting",
@@ -1579,7 +1579,7 @@
         },
         {
           "id": "gen-q122",
-          "level": "medium",
+          "level": "easy",
           "question": "Having to constantly push the team to perform is example of a LACK of:",
           "options": [
             "Project continuity",
@@ -1605,7 +1605,7 @@
         },
         {
           "id": "gen-q124",
-          "level": "medium",
+          "level": "easy",
           "question": "All of the following are outputs of control scope EXCEPT?",
           "options": [
             "Changes Requested",
@@ -1618,7 +1618,7 @@
         },
         {
           "id": "gen-q125",
-          "level": "medium",
+          "level": "easy",
           "question": "A WBS is BEST described as a tool for tracking:",
           "options": [
             "The schedule",
@@ -1631,7 +1631,7 @@
         },
         {
           "id": "gen-q126",
-          "level": "medium",
+          "level": "hard",
           "question": "A project manager discovers that two team members discussed what was needed to complete a work package on the project and made many scope changes. The work package is now completed and the team members are planning to go on to the next work package. In looking at what was done, the project manager determines that the work does NOT meet the requirements of the project. What is the BEST course of action for the project manager?",
           "options": [
             "Add another work package, formatted with the correct scope, to the project.",
@@ -1657,7 +1657,7 @@
         },
         {
           "id": "gen-q128",
-          "level": "medium",
+          "level": "easy",
           "question": "Which process group focuses on completing the requirements of the project?",
           "options": [
             "Initiating",
@@ -1696,7 +1696,7 @@
         },
         {
           "id": "gen-q131",
-          "level": "medium",
+          "level": "easy",
           "question": "A discretionary dependency is one that is based on:",
           "options": [
             "Experience",
@@ -1735,7 +1735,7 @@
         },
         {
           "id": "gen-q134",
-          "level": "medium",
+          "level": "easy",
           "question": "Which of the following are GENERALLY illustrated BETTER by bar charts than network diagrams?",
           "options": [
             "Logical relationships",
@@ -1748,7 +1748,7 @@
         },
         {
           "id": "gen-q135",
-          "level": "medium",
+          "level": "hard",
           "question": "A project manager for a small construction company has a project that was budgeted for U.S. $130,000 over a six week period. According to her schedule, the project should have cost U.S $60,000 to date. However, it has cost U.S $90,000 to date. The project should have schedule, because the original estimates were not accurate. Who has the PRIMARY responsibility to solve this problem?",
           "options": [
             "Project manager",
@@ -1761,7 +1761,7 @@
         },
         {
           "id": "gen-q136",
-          "level": "medium",
+          "level": "hard",
           "question": "You have a project with four activities as follow: Activity 1 can start immediately and has an estimated duration of one. Activity 2 can start after activity 1 is completed and has duration of four. Activity 3 can start after Activity 2 is completed and has duration of five. Activity 4 can start after activity 1 is completed and must be completed when activity 3 is completed. The estimate for activity 4 is 10. What is the SHORTEST amount of time in which the project can be completed?",
           "options": [
             "10",
@@ -1774,7 +1774,7 @@
         },
         {
           "id": "gen-q137",
-          "level": "medium",
+          "level": "hard",
           "question": "If the optimistic estimate for an activity is 12 days, and the pessimistic estimate is 18 days, what is the standard deviation of this activity?",
           "options": [
             "1",
@@ -1787,7 +1787,7 @@
         },
         {
           "id": "gen-q138",
-          "level": "medium",
+          "level": "easy",
           "question": "The cost of choosing one project and giving up another is called:",
           "options": [
             "Fixed cost",
@@ -1800,7 +1800,7 @@
         },
         {
           "id": "gen-q139",
-          "level": "medium",
+          "level": "hard",
           "question": "During the executing process group, a functional manager asks you to use a model C generator instead of model B. on your project. The functional manager says that model C solves the need of the project and proves some benefits to the manufacturing department. You look at the cost associated with model C and discover that it is substantially higher than model B. If you are not sure you can justify the more expensive model, what is the BEST thing to do?",
           "options": [
             "Review the specifications of each to validate the manager’s claims",
@@ -1813,7 +1813,7 @@
         },
         {
           "id": "gen-q140",
-          "level": "medium",
+          "level": "easy",
           "question": "The BEST method to control costs is to:",
           "options": [
             "Estimate at the beginning of the project and then check costs against the baseline.",
@@ -1826,7 +1826,7 @@
         },
         {
           "id": "gen-q141",
-          "level": "medium",
+          "level": "easy",
           "question": "Which of the following does NOT assess the value a project brings to an organization?",
           "options": [
             "Benefit cost analysis",
@@ -1839,7 +1839,7 @@
         },
         {
           "id": "gen-q142",
-          "level": "medium",
+          "level": "easy",
           "question": "Which type of cost is team is training?",
           "options": [
             "Direct",
@@ -1852,7 +1852,7 @@
         },
         {
           "id": "gen-q143",
-          "level": "medium",
+          "level": "hard",
           "question": "What is present value (PV)?",
           "options": [
             "Value of assets adjust that a company owns",
@@ -1865,7 +1865,7 @@
         },
         {
           "id": "gen-q144",
-          "level": "medium",
+          "level": "easy",
           "question": "When a product or service completely meets a customer’s requirements;",
           "options": [
             "Quality is achieved",
@@ -1878,7 +1878,7 @@
         },
         {
           "id": "gen-q145",
-          "level": "medium",
+          "level": "hard",
           "question": "A manager notices that a project manager is holding a meeting with some of the team and some stakeholders to discuss the quality of the project. The project schedule has been compressed and the CPI is 1.1. They work hard on the project, the team has been rewarded according to the reward system the project manager put in place and there is a strong sense of team. The manager suggests that the project manager does not have enough time to hold meetings about quality when the schedule is so compressed. Which of the following BEST describes why the manager is wrong?",
           "options": [
             "Improve quality leads to increased productivity, increased cost effectiveness and decreased cost risk.",
@@ -1891,7 +1891,7 @@
         },
         {
           "id": "gen-q146",
-          "level": "medium",
+          "level": "easy",
           "question": "A control helps the product manager;",
           "options": [
             "Focus on the most issues to improve quality.",
@@ -1904,7 +1904,7 @@
         },
         {
           "id": "gen-q147",
-          "level": "medium",
+          "level": "hard",
           "question": "You are a project manager for a major information system project when someone from the quality department comes to see you about beginning a quality audit of your project as soon as possible, you objects to the audit. You should explain to the team that the purpose of a quality audit is;",
           "options": [
             "Part of ISO 9000 investigation.",
@@ -1917,7 +1917,7 @@
         },
         {
           "id": "gen-q148",
-          "level": "medium",
+          "level": "hard",
           "question": "What percentage of the total distribution are 3 sigma from the mean equal to?",
           "options": [
             "68.26%",
@@ -1930,7 +1930,7 @@
         },
         {
           "id": "gen-q149",
-          "level": "medium",
+          "level": "hard",
           "question": "A project manger has just taken over the project from another project manger during the executing process group. The previous project manager created a project budget, determined communications requirements and went on to complete work packages. What should the new project manager do NEXT?",
           "options": [
             "Coordinate performance of work packages.",
@@ -1943,7 +1943,7 @@
         },
         {
           "id": "gen-q150",
-          "level": "medium",
+          "level": "easy",
           "question": "Who is ultimately responsible for quality management on the project?",
           "options": [
             "Project engineer",
@@ -1956,7 +1956,7 @@
         },
         {
           "id": "gen-q151",
-          "level": "medium",
+          "level": "easy",
           "question": "From the perspective, quality attributes:",
           "options": [
             "Determine how effective the performing organizations support the project.",
@@ -1995,7 +1995,7 @@
         },
         {
           "id": "gen-q154",
-          "level": "medium",
+          "level": "easy",
           "question": "Inputs to plan communication include all the following EXCEPT:",
           "options": [
             "Communications requirements",
@@ -2008,7 +2008,7 @@
         },
         {
           "id": "gen-q155",
-          "level": "medium",
+          "level": "easy",
           "question": "When a project manager is engaged in negotiations, nonverbal communication skill are of :",
           "options": [
             "Little importance",
@@ -2060,7 +2060,7 @@
         },
         {
           "id": "gen-q159",
-          "level": "medium",
+          "level": "easy",
           "question": "The communications management plan is developed to meet the needs of the:",
           "options": [
             "Project sponsor",
@@ -2073,7 +2073,7 @@
         },
         {
           "id": "gen-q160",
-          "level": "medium",
+          "level": "hard",
           "question": "The project has 13 team members and affects over 15 departments in the organization. Because the project is 20 percent complete to date and the team has had successful performance reports from five of the affected departments, the project manager holds a party to celebrate. The project manager invites to the party key stakeholders from all of the departments, in order to give those providing good reviews an informal opportunity to communicate good things to those departments that have not yet been affected by the project. At the party, the project manager walks around to try to discover any relevant information that would help the project be more successful. He happens to hear a manager of the departments talking about setting up more regular meetings on the project. The BEST thing for the project manager to do would be to FIRST:",
           "options": [
             "Record the effectiveness of the party in the project lessons learned.",
@@ -2086,7 +2086,7 @@
         },
         {
           "id": "gen-q161",
-          "level": "medium",
+          "level": "easy",
           "question": "All the following are factor in the assessment of project risk EXCEPT?",
           "options": [
             "Risk event",
@@ -2099,7 +2099,7 @@
         },
         {
           "id": "gen-q162",
-          "level": "medium",
+          "level": "hard",
           "question": "You are a project manager for a construction of a major new manufacturing plant that has never been done before. The project cost is estimated at U.S $30,000,000 and will make use of three sellers. Once began, the project cannot be cancelled, as there will be a large expenditure on plant and equipment. As the project manager, it would be MOST important to carefully:",
           "options": [
             "Review all cost proposals from the sellers",
@@ -2112,7 +2112,7 @@
         },
         {
           "id": "gen-q163",
-          "level": "medium",
+          "level": "hard",
           "question": "You have been appointed manager of a new, large and complex project. Because this project is business-critical and very visible, senior management has told you to analyze the project’s risk and prepare response strategies for them as soon as possible. The organization risk management procedures are seldom used or followed, and has had a history of handling risks badly. The projects first milestone is in two weeks. In preparing the risk response plan, input from which of the following is generally LEAST important?",
           "options": [
             "Project team members",
@@ -2125,7 +2125,7 @@
         },
         {
           "id": "gen-q164",
-          "level": "medium",
+          "level": "easy",
           "question": "Risks will be identified during which risk management process (es)?",
           "options": [
             "Quantitative risk analysis and risk identification",
@@ -2138,7 +2138,7 @@
         },
         {
           "id": "gen-q165",
-          "level": "medium",
+          "level": "easy",
           "question": "During which risk management process is a determination to transfer a risk made?",
           "options": [
             "Quantitative risk analysis",
@@ -2164,7 +2164,7 @@
         },
         {
           "id": "gen-q167",
-          "level": "medium",
+          "level": "hard",
           "question": "If a project has a 60 percent chance of a $100,000 profit and a 40 percent chance of a U.S. $100,000 loss, the expected monetary value for the project is:",
           "options": [
             "$100,000 profit",
@@ -2190,7 +2190,7 @@
         },
         {
           "id": "gen-q169",
-          "level": "medium",
+          "level": "hard",
           "question": "You were in the middle of a two-year project to deploy new technology to field offices across the country. A hurricane caused power outage just as the upgrade was near completion. When the power was restored all of the project reports and historical data were lost with no way of retrieving them. What should have been done to mitigate this risk?",
           "options": [
             "Purchase insurance",
@@ -2203,7 +2203,7 @@
         },
         {
           "id": "gen-q170",
-          "level": "medium",
+          "level": "easy",
           "question": "When should a schedule baseline be created and used?",
           "options": [
             "At the beginning of the project and used to compare schedule performance on status reports.",
@@ -2216,7 +2216,7 @@
         },
         {
           "id": "gen-q171",
-          "level": "medium",
+          "level": "hard",
           "question": "A project manager is working on a project for a large technology integrator. His project calls for java technology. He needs to supplement his technical staff with technical consultant for one month because his company does not have the skill set due to unexpected leaves of absence in the technical team. He will manage the vendors work since he wants to retain control. Which will be the BEST type of contract to use?",
           "options": [
             "Cost plus fixed fee (CPFF)",
@@ -2242,7 +2242,7 @@
         },
         {
           "id": "gen-q173",
-          "level": "medium",
+          "level": "hard",
           "question": "You are in the process of having work crews dig a trench to lay fibber for a high- speed internet connection. All of the work permits have been obtained and funding has been approved. There have been several weather related delays, but due to perseverance of the entire team, the project is on time. It is the customer’s responsibility to provide entrance facilities so the connection into the building can be made. You discover the customer does not have adequate facilities and will not have them in time. What should you do?",
           "options": [
             "Slow down the work, allowing the team time off but ensuring that your work will be completed before the customer finishes their portion of the work.",
@@ -2255,7 +2255,7 @@
         },
         {
           "id": "gen-q174",
-          "level": "medium",
+          "level": "hard",
           "question": "Your company is in the middle of negotiating to win a major new project. The project nicely fits into the company’s strategic plan, but will require some of the best resources the company has in order to meet the quality objectives. Management is excited because the project represents the opportunity to generate good profits for the company and will put all their company expertise to the test. The prospective team members are also excited because the client is prestigious. In order to meet the schedule objectives for the project you need to start committing jobs to new and critical project resources while the contract is still under negotiation,. What should you do?",
           "options": [
             "What until the last minute to do so.",
@@ -2268,7 +2268,7 @@
         },
         {
           "id": "gen-q175",
-          "level": "medium",
+          "level": "hard",
           "question": "During completion of the project, you notice that a deliverable, integral to the project, has not been received. The seller says that work is not part of the contract. You remember discussing it during negotiations and even coming to agreement, but you cannot find it in the contract. Which of the following BEST describes this situation?",
           "options": [
             "The deliverable may be described in the specification and not the contract.",
@@ -2281,7 +2281,7 @@
         },
         {
           "id": "gen-q176",
-          "level": "medium",
+          "level": "hard",
           "question": "Near the end of your last project, additional requirement were demanded by a group of stakeholders when they learned they would be affected by your projects. This became a problem because you had not included the time or cost in the project management plans for this requirements. What is the BEST thing you can do to prevent such problems on future projects?",
           "options": [
             "Review the WBS dictionary more thoroughly, looking for incomplete descriptions.",
@@ -2294,7 +2294,7 @@
         },
         {
           "id": "gen-q177",
-          "level": "medium",
+          "level": "hard",
           "question": "The software development project is not going well. There are over 30 stakeholders, and no one can agree on the project objectives. One stakeholder believes the project can achieve a 30 percent improvement while another believes a 50 percent improvement is possible. The project management thinks a 10 percent improvement is more realistic. What is the BEST course of action?",
           "options": [
             "Move forward with the project and look for information to settle the issue.",
@@ -2320,7 +2320,7 @@
         },
         {
           "id": "gen-q179",
-          "level": "medium",
+          "level": "hard",
           "question": "You are in the middle of a new product development for your publicly traded company when you discover that the previous project manager made a U.S. $3,000,000 payment that was not approved in accordance with your company policies. Luckily, the project cost performance index (CPI) is 1.2. What should you do?",
           "options": [
             "Contact your manager",
@@ -2333,7 +2333,7 @@
         },
         {
           "id": "gen-q180",
-          "level": "medium",
+          "level": "hard",
           "question": "During a meeting with some of the project stakeholders, the project manager is asked to add work to the project scope. The project manager had access to correspondence about the project before the project charter was signed and remembers that the project sponsor specifically denied funding for the scope mentioned by these stakeholders. The BEST thing for the project manager to do would be to:",
           "options": [
             "Let the sponsor know of the stakeholders’ request.",
@@ -2359,7 +2359,7 @@
         },
         {
           "id": "gen-q182",
-          "level": "medium",
+          "level": "hard",
           "question": "The project manager is having a very difficult time keeping a project schedule on track. The project requires 220 people to complete it. All of the project problem have been fixed to the project manger’s satisfaction, the performance index (SPI) is currently 0.67, the cost performance index (CPI) is 1.26, there are 23 activities on the critical path and project PERT duration is 26. Under these circumstances, the monthly status report should report:",
           "options": [
             "That the project is doing well",
@@ -2385,7 +2385,7 @@
         },
         {
           "id": "gen-q184",
-          "level": "medium",
+          "level": "hard",
           "question": "A manager has responsibility for a project that has the support of a senior manager. From the beginning, you have disagreed with the manager as to how the project should proceed and what the deliverables should be. You and she have disagreed over many issues in the past. Your department has been tasked with providing some key work packages for the project. What should you do?",
           "options": [
             "Provide the manager with what she needs",
@@ -2398,7 +2398,7 @@
         },
         {
           "id": "gen-q185",
-          "level": "medium",
+          "level": "hard",
           "question": "A large, complex construction project in a foreign country requires coordination to move the required equipment through crowded city streets. To ensure the equipment is transported successfully, your contact in that country informs you that you will have to pay the local police a fee for coordinating traffic. What should you do?",
           "options": [
             "Do not pay the fee because it is a bribe",
@@ -2424,7 +2424,7 @@
         },
         {
           "id": "gen-q187",
-          "level": "medium",
+          "level": "hard",
           "question": "You’ve been assigned to take over managing a project that should be half complete according to the schedule. After an extensive evaluation, you discover that the project is running far behind schedule, and that the project will probably take twice the time originally estimated by the previous project manager. However, the sponsor has been told that the project is on schedule. What is the BEST course of action?",
           "options": [
             "Try to restructure the schedule to meet the project deadline",
@@ -2437,7 +2437,7 @@
         },
         {
           "id": "gen-q188",
-          "level": "medium",
+          "level": "hard",
           "question": "You are half way through a major network rollout. There are 300 locations in the United States with another 20 in England. A software seller has just released a major software upgrade for some of the equipment being installed. The upgrade would provide the customer with functionality they request that was not available at the time the project began. What is the BEST course of action under these circumstances?",
           "options": [
             "Continue as planned, your customer has not requested a change",
@@ -2463,7 +2463,7 @@
         },
         {
           "id": "gen-q190",
-          "level": "medium",
+          "level": "hard",
           "question": "You are a project manager for one of many projects in a large and important programme. At a high-level status meeting, you notice that another project manager has reported her project on schedule. Looking back on your project over the last few weeks, you remember many deliverables from the other project that arrived late. What should you do?",
           "options": [
             "Meet with the program manager",
@@ -2476,7 +2476,7 @@
         },
         {
           "id": "gen-q191",
-          "level": "medium",
+          "level": "hard",
           "question": "You have been asked by your management to cut your project estimate by ten percent after you have given it to them. The scope of your new project is unclear and there are over 30 stakeholders. Management expects a 25 percent reduction in downtime as a result of the project. Which of the following is the BEST course of action in this situation?",
           "options": [
             "Re-plan to achieve a 35 percent improvement in downtime",
@@ -2502,7 +2502,7 @@
         },
         {
           "id": "gen-q193",
-          "level": "medium",
+          "level": "easy",
           "question": "All of the following are the responsibility of a project manager EXCEPT?",
           "options": [
             "maintain the confidentially of customer confidential information",
@@ -2515,7 +2515,7 @@
         },
         {
           "id": "gen-q194",
-          "level": "medium",
+          "level": "hard",
           "question": "In order to complete work on your projects, you have provided confidential information from all of your clients. A university contacts you to help it in its research. Such assistance would require you to provide the university with some of the client data from your files. What should you do?",
           "options": [
             "Release the information, but remove all references to the client’s names",
@@ -2528,7 +2528,7 @@
         },
         {
           "id": "gen-q195",
-          "level": "medium",
+          "level": "hard",
           "question": "Management has promised you part of the incentive fee from the customer if you complete the project early. While finalizing a major deliverable your team informs you that the deliverable meets the requirements in the contract but will not provide the functionality the customer needs. If the deliverables is late, the project will not be completed early. What action should you take?",
           "options": [
             "Provide the deliverable as it is",
@@ -2554,7 +2554,7 @@
         },
         {
           "id": "gen-q197",
-          "level": "medium",
+          "level": "hard",
           "question": "While testing the strength of concrete poured on your project, you discover that over 35 percent of the concrete does not meet your company’s quality standards. You feel certain the concrete will function as it is, and you don’t think the concrete needs to meet the quality level specified. What should you do?",
           "options": [
             "Change the quality standards to meet the level achieved",
@@ -2567,7 +2567,7 @@
         },
         {
           "id": "gen-q198",
-          "level": "medium",
+          "level": "hard",
           "question": "You are the project manager for a new international project and your project team includes people from four countries. Most of the team members have not worked on similar projects before, but the project has strong support from senior management. What is the BEST thing to do to ensure that cultural differences do not interfere with the project?",
           "options": [
             "Spend a little more time creating the work breakdown structure and making sure it is complete",
@@ -2593,7 +2593,7 @@
         },
         {
           "id": "gen-q200",
-          "level": "medium",
+          "level": "hard",
           "question": "You are working on a large construction project that is progressing within the baselines. Resource usage has remained steady, and your boss has just awarded you a prize for your performance. One of your team members returns from a meeting with the customer and tells you that the customer is not happy with the project progress what is the FIRST thing you should do?",
           "options": [
             "Tell your manager",
