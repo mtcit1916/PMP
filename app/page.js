@@ -12,7 +12,7 @@ export default function HomePage() {
         <p className="text-slate-400 text-sm">اختر الفصل ومستوى الصعوبة وابدأ التدريب</p>
       </header>
 
-      <div className="flex gap-3 mb-8">
+      <div className="flex gap-3 mb-4">
         <Link
           href="/mock-exam"
           className="flex-1 text-center rounded-xl bg-brand-600 hover:bg-brand-700 py-3 font-semibold"
@@ -24,6 +24,21 @@ export default function HomePage() {
           className="flex-1 text-center rounded-xl bg-slate-800 hover:bg-slate-700 py-3 font-semibold"
         >
           📊 إحصائياتي
+        </Link>
+      </div>
+
+      <div className="flex gap-3 mb-8">
+        <Link
+          href="/favorites"
+          className="flex-1 text-center rounded-xl bg-slate-800 hover:bg-slate-700 py-3 font-semibold"
+        >
+          ⭐ المفضّلة
+        </Link>
+        <Link
+          href="/mistakes"
+          className="flex-1 text-center rounded-xl bg-slate-800 hover:bg-slate-700 py-3 font-semibold"
+        >
+          🔁 مراجعة الأخطاء
         </Link>
       </div>
 

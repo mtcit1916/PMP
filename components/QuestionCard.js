@@ -1,6 +1,7 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import { isFavorite, toggleFavorite } from "@/lib/storage";
 
 const LEVEL_LABEL = { easy: "سهل", medium: "متوسط", hard: "صعب" };
 const LEVEL_COLOR = {
@@ -12,6 +13,11 @@ const LEVEL_COLOR = {
 export default function QuestionCard({ question, onAnswered }) {
   const [chosenIndex, setChosenIndex] = useState(null);
   const [revealed, setRevealed] = useState(false);
+  const [favorite, setFavorite] = useState(false);
+
+  useEffect(() => {
+    setFavorite(isFavorite(question.id));
+  }, [question.id]);
 
   function handleChoose(index) {
     if (revealed) return;
@@ -21,12 +27,27 @@ export default function QuestionCard({ question, onAnswered }) {
     onAnswered?.({ correct, chosenIndex: index });
   }
 
+  function handleToggleFavorite() {
+    const next = toggleFavorite(question.id);
+    setFavorite(next);
+  }
+
   return (
     <div className="rounded-2xl bg-slate-900 border border-slate-800 p-5 shadow-lg">
       <div className="flex items-center justify-between mb-3">
         <span className={`text-xs px-2 py-1 rounded-full ${LEVEL_COLOR[question.level]}`}>
           {LEVEL_LABEL[question.level] || question.level}
         </span>
+        <button
+          onClick={handleToggleFavorite}
+          aria-label="راجعها لاحقاً"
+          title="راجعها لاحقاً"
+          className={`text-xl leading-none transition ${
+            favorite ? "text-amber-400" : "text-slate-600 hover:text-slate-400"
+          }`}
+        >
+          {favorite ? "★" : "☆"}
+        </button>
       </div>
 
       <p className="text-lg font-medium leading-relaxed mb-4 whitespace-normal break-words [overflow-wrap:anywhere]">

@@ -6,8 +6,7 @@ import { getRandomMockQuestions } from "@/lib/questions";
 import { saveAnswer } from "@/lib/storage";
 import QuestionCard from "@/components/QuestionCard";
 
-const QUESTION_COUNT = 20;
-const DURATION_SECONDS = 25 * 60; // 25 دقيقة، عدّلها حسب رغبتك
+const SECONDS_PER_QUESTION = 75; // بمعدل قريب من توقيت الامتحان الحقيقي (230 دقيقة / 180 سؤال)
 
 function formatTime(totalSeconds) {
   const m = Math.floor(totalSeconds / 60).toString().padStart(2, "0");
@@ -20,11 +19,13 @@ export default function MockExamPage() {
   const [index, setIndex] = useState(0);
   const [correctCount, setCorrectCount] = useState(0);
   const [answeredCount, setAnsweredCount] = useState(0);
-  const [secondsLeft, setSecondsLeft] = useState(DURATION_SECONDS);
+  const [secondsLeft, setSecondsLeft] = useState(null);
   const [finished, setFinished] = useState(false);
 
   useEffect(() => {
-    setQuestions(getRandomMockQuestions(QUESTION_COUNT));
+    const all = getRandomMockQuestions(); // كل الأسئلة المتاحة، كما تم الاتفاق
+    setQuestions(all);
+    setSecondsLeft(all.length * SECONDS_PER_QUESTION);
   }, []);
 
   useEffect(() => {
@@ -37,7 +38,7 @@ export default function MockExamPage() {
     return () => clearInterval(timer);
   }, [secondsLeft, finished, questions]);
 
-  if (!questions) {
+  if (!questions || secondsLeft === null) {
     return <main className="max-w-2xl mx-auto px-4 py-8 text-center">جاري تجهيز الاختبار...</main>;
   }
 
