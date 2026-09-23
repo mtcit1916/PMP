@@ -22,7 +22,7 @@ export default function FavoritesPage() {
       title="⭐ المفضّلة"
       questions={questions}
       emptyMessage="ما عندك أي سؤال مضاف للمفضلة بعد."
-      emptyHint="أثناء التدريب، دوس على أيقونة النجمة ⭐ فوق أي سؤال عشان تضيفه هون."
+      emptyHint="أثناء التدريب، دوس على أيقونة النجمة ⭐ فوق أي سؤال عشان تضيفه هنا."
     />
   );
 }

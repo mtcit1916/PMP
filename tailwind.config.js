@@ -36,7 +36,7 @@ module.exports = {
         },
       },
       fontFamily: {
-        sans: ["'IBM Plex Sans Arabic'", "system-ui", "sans-serif"],
+        sans: ["Calibri", "'Segoe UI'", "system-ui", "sans-serif"],
         mono: ["'IBM Plex Mono'", "ui-monospace", "monospace"],
       },
     },
