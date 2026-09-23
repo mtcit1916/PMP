@@ -393,6 +393,370 @@
           ],
           "correctIndex": 1,
           "explanation": "Choice A puts your interest over those of your company so it cannot be the best choice. There is no indication that the labor dispute has caused any problems, so there is no need to cancel its work (choice C) or to cease doing business with the company (choice D). The best choice would be to inform others in your company."
+        },
+        {
+          "id": "lehmann-q003",
+          "level": "easy",
+          "question": "Which is a central objective of using a Kanban board?",
+          "options": [
+            "Allowing for three-point estimation of work items",
+            "Limiting the number of items in the Work in Progress column",
+            "Allowing for Fibonacci numbers in estimation of epics",
+            "Giving the Scrum Master a tool to add stories to the backlog"
+          ],
+          "correctIndex": 1,
+          "explanation": "المرجع: Agile Practice Guide, pages 65-66, 105."
+        },
+        {
+          "id": "lehmann-q004",
+          "level": "easy",
+          "question": "What does the term continuous delivery often refer to?",
+          "options": [
+            "A standardized set of deliverables, like plans, reports, and checklists.",
+            "A set of tools and techniques that a project manager should master.",
+            "Increasing customer satisfaction by delivering valuable products and increments early.",
+            "A specific sequence of work, described in terms of soft logic."
+          ],
+          "correctIndex": 3,
+          "explanation": "المرجع: Agile Practice Guide, pages 25. 2 Item: A question with 4 answering options. There are also other item types, such as more than one choice, drag & drop answers, hotspots, type into boxes, etc. 89"
+        },
+        {
+          "id": "lehmann-q006",
+          "level": "easy",
+          "question": "_________ are usually not a manifestation of unique organizational cultures and styles.",
+          "options": [
+            "Shared visions, values, norms, beliefs, and expectations",
+            "Individual traits and attitudes of co-workers",
+            "Views of authority relationships",
+            "Policies, methods, and procedures"
+          ],
+          "correctIndex": 1,
+          "explanation": "المرجع: PMBOK® Guide 6th Edition, page 38."
+        },
+        {
+          "id": "lehmann-q008",
+          "level": "medium",
+          "question": "As the project manager, you decided to arrange a team meeting to identify and analyze lessons learned from quality control with stakeholders. What should you do with them?",
+          "options": [
+            "Document them and make them part of the historical database for the project and the performing organization.",
+            "Discuss them with management and make sure that they remain otherwise confidential",
+            "Publish them in the corporate newsletter.",
+            "Follow your strategic decisions, independent from lessons learned. These decisions have been made and should be implemented whatever the outcomes are."
+          ],
+          "correctIndex": 0,
+          "explanation": "المرجع: PMBOK® Guide 6th Edition, page 104."
+        },
+        {
+          "id": "lehmann-q012",
+          "level": "easy",
+          "question": "What is not a reason for companies to organize lessons learned?",
+          "options": [
+            "Lessons learned databases are an essential element of the organizational process assets.",
+            "Lessons learned should focus on identifying those accountable for errors and failures.",
+            "Lessons learned sessions should bring about recommendations to improve future performance on projects.",
+            "Phase-end lessons learned sessions provide a good team building exercise for project staff members."
+          ],
+          "correctIndex": 1,
+          "explanation": "المرجع: PMBOK® Guide 6th Edition, page 104."
+        },
+        {
+          "id": "lehmann-q029",
+          "level": "medium",
+          "question": "You have a discussion with management in organizations that the costs of quality are hard to assign and to balance against each What are the cost types in modern quality management?",
+          "options": [
+            "Costs of good quality – costs of bad quality",
+            "Planning costs – assurance costs – control costs",
+            "Planning costs – doing costs – checking costs – acting costs",
+            "Prevention costs – appraisal costs – failure costs"
+          ],
+          "correctIndex": 3,
+          "explanation": "المرجع: PMBOK® Guide 6th Edition, page 283 (figure 8-5)."
+        },
+        {
+          "id": "lehmann-q039",
+          "level": "hard",
+          "question": "During code inspection in a major software development project, a project management team identified frequent occurrences of critical programming errors. These errors are scattered across the code and occur without a discernible pattern. Which tool is most likely to help the team identify areas of error concentration in order to develop a prioritized response strategy?",
+          "options": [
+            "Check sheet",
+            "Influence diagram",
+            "Decision tree",
+            "Process decision program chart"
+          ],
+          "correctIndex": 0,
+          "explanation": "المرجع: PMBOK® Guide 6th Edition, page 302."
+        },
+        {
+          "id": "lehmann-q048",
+          "level": "medium",
+          "question": "Your agile team is uncertain for which elements of the project what methods should be applied. A recommendation was to follow the stages of uncertainty. Which are these stages?",
+          "options": [
+            "Scope change and scope creep",
+            "Internal - political – economical – external – environmental",
+            "Simple – complicated – complex - chaos",
+            "Project complexity – product complexity"
+          ],
+          "correctIndex": 2,
+          "explanation": "المرجع: Agile Practice Guide, page 14."
+        },
+        {
+          "id": "lehmann-q058",
+          "level": "hard",
+          "question": "During risk identification sessions, you and your team identified more than 150 risks for your project. You are afraid that evaluating each of these risks quantitatively will cost you an enormous amount of time, while not all of them are really relevant and important enough to justify such a measure. What should you do next?",
+          "options": [
+            "Identify risk triggers where possible. Analyze only those risks quantitatively for which no trigger could be found.",
+            "Use qualitative risk analysis in order to prioritize risks for further action, such as quantitative risk analysis.",
+            "Assess the probability of each risk qualitatively and further analyze only those risks with high probability.",
+            "Assess the potential impact of each risk qualitatively and further analyze only those risks with high impact."
+          ],
+          "correctIndex": 1,
+          "explanation": "المرجع: PMBOK® Guide 6th Edition, page 419."
+        },
+        {
+          "id": "lehmann-q073",
+          "level": "medium",
+          "question": "You are assigned as a project manager for an internal project. During cost planning and budgeting you discovered that there are peak times of costs during the project and other times when costs are fairly low. What could this mean for the project?",
+          "options": [
+            "The fiscal budget mechanism which is used by the performing organization may not allow for cost peaks in your project, and you may have to level out expenditures over time.",
+            "You can silently create budget contingencies during low-cost periods and re-use them later during those periods when you have to cover peak levels in project costs.",
+            "You may find another project manager with a project that has a different rhythm of high and low costs. Then, you may be able to move budget during one project’s low cost periods to the other project.",
+            "You are a project manager and work with a lifecycle budget for your project. Fiscal budgets are a matter of the functional organization, and you generally do not have to care about them."
+          ],
+          "correctIndex": 0,
+          "explanation": "المرجع: PMBOK® Guide 6th Edition, page 253 (7.3.2.5)."
+        },
+        {
+          "id": "lehmann-q074",
+          "level": "medium",
+          "question": "You are going to take over a new project as the project manager in an enterprise unknown to you. What should you investigate during the chartering process?",
+          "options": [
+            "Enterprise environmental factors",
+            "Project management plan",
+            "Project risk register",
+            "Team performance reports"
+          ],
+          "correctIndex": 0,
+          "explanation": "المرجع: PMBOK® Guide 6th Edition, pages 38."
+        },
+        {
+          "id": "lehmann-q091",
+          "level": "easy",
+          "question": "Projects may be initiated by all of the following except____.",
+          "options": [
+            "the project team",
+            "a sponsor",
+            "a PMO",
+            "a portfolio review board"
+          ],
+          "correctIndex": 0,
+          "explanation": "المرجع: PMBOK® Guide 6th Edition, page 77."
+        },
+        {
+          "id": "lehmann-q094",
+          "level": "hard",
+          "question": "For your agile product development to build a food processing plant, you need a batch of 100 identical valves which will be custom made for your project. There is a risk of deterioration of the valves during processing; therefore you placed requirements on the quality of the raw materials for them, which will make production very expensive. To cover the risk of costly production failure, you add more testing to the backlog. What should this altered backlog version be referred to?",
+          "options": [
+            "Extended backlog",
+            "Risk-adjusted backlog",
+            "Issue-adjusted backlog",
+            "Zero-risk backlog"
+          ],
+          "correctIndex": 1,
+          "explanation": "المرجع: PMBOK® Guide 7th Edition, page 185."
+        },
+        {
+          "id": "lehmann-q097",
+          "level": "medium",
+          "question": "When finishing a project, which factors that influence customer satisfaction the most should you be aware of?",
+          "options": [
+            "Attractive price of the project and low running costs of the product",
+            "Friendly project manager and effective after-project service",
+            "Efficiency of the project and skills of the project manager",
+            "Conformance to requirements of the project and fitness for use of the deliverables"
+          ],
+          "correctIndex": 3,
+          "explanation": "المرجع: PMBOK® Guide 6th Edition, page 275."
+        },
+        {
+          "id": "lehmann-q098",
+          "level": "medium",
+          "question": "When identifying the basis of the business need for a project all of the following can be considered except____,98",
+          "options": [
+            "regular plant maintenance",
+            "market demands",
+            "technological advances",
+            "legal requirements"
+          ],
+          "correctIndex": 0,
+          "explanation": "المرجع: PMBOK® Guide 6th Edition, pages 31-32."
+        },
+        {
+          "id": "lehmann-q099",
+          "level": "medium",
+          "question": "You are discussing with your project team to implement a “hybrid” approach. In a hybrid approach to perform a project, what will you do?",
+          "options": [
+            "Combine elements of predictive and agile approaches.",
+            "Use a phase gate model with overlapping phases.",
+            "Apply rolling wave planning.",
+            "Use agile methods to ensure long-term predictability."
+          ],
+          "correctIndex": 0,
+          "explanation": "المرجع: Agile Practice Guide, page 15, page 26-27."
+        },
+        {
+          "id": "lehmann-q124",
+          "level": "easy",
+          "question": "When is passive risk acceptance an appropriate approach?",
+          "options": [
+            "When the likeliness of risk occurrence is very low.",
+            "When the risk occurrence is hard to identify.",
+            "When it is best to deal with a risk as it occurs.",
+            "When the risk cannot be assessed or analyzed."
+          ],
+          "correctIndex": 2,
+          "explanation": "المرجع: PMBOK® Guide 6th Edition, page 443."
+        },
+        {
+          "id": "lehmann-q127",
+          "level": "medium",
+          "question": "In an organization, project managers report directly to the head of a project management office (PMO). In this case, which statement is probably not true?",
+          "options": [
+            "The head of the project management office can strengthen the matrix as a manager of project managers.",
+            "The project management office will actually be responsible for direct management of the projects.",
+            "Projects will be run by the functional organization and project managers expedite change control.",
+            "It will be easier for the PMO to ensure that the organizational process assets provided are used."
+          ],
+          "correctIndex": 2,
+          "explanation": "المرجع: PMBOK® Guide 6th Edition, page 186."
+        },
+        {
+          "id": "lehmann-q148",
+          "level": "hard",
+          "question": "Which technique has been applied to develop the following diagram? 148 17% 0% 1.1 Optimistic costs -$123,000.00 -$123,000.00 FALSE 1 Use existing staff -$169,220.00 $0.00 66% 0% 1.2 Most likely costs -$158,000.00 -$158,000.00 17% 0% 1.3 Pessimistic costs -$259,000.00 -$259,000.00 Make or buy? Implementation costs -$149,500.00 50% 50% 2.1 Optimistic costs -$35,000.00 -$85,000.00 TRUE 2 Hire new staff -$99,500.00 -$50,000.00 50% 50% 2.2 Pessimistic costs -$164,000.00 -$214,000.00 33% 0% 3.1 Optimistic costs -$120,000.00 -$140,000.00 FALSE 3 Use contractor staff -$207,100.00 -$20,000.00 67% 0% 3.2 Pessimistic costs -$250,000.00 -$270,000.",
+          "options": [
+            "Decision tree",
+            "P/I matrix",
+            "Strategic scoring",
+            "Risk breakdown structure"
+          ],
+          "correctIndex": 0,
+          "explanation": "المرجع: PMBOK® Guide 6th Edition, page 435. N.B.: Diagram created with Insight Tree by Visionary Tools"
+        },
+        {
+          "id": "lehmann-q149",
+          "level": "hard",
+          "question": "Your organization has the choice between several internal projects it could run. In order to select projects, the organization assessed their strategic importance, investment requirements, and expected cash inflow from the projects’ products, services and results. What should the organization assess in addition?",
+          "options": [
+            "The probability of changes to strategic goals.",
+            "The frequency of changes to strategic goals.",
+            "The assessments done should be sufficient.",
+            "The probability of the expected cash inflows."
+          ],
+          "correctIndex": 3,
+          "explanation": "المرجع: Project Management, A Systems Approach to Planning, Scheduling and Controlling by Harold Kerzner, 12th edition, pages 373ff."
+        },
+        {
+          "id": "lehmann-q151",
+          "level": "easy",
+          "question": "Processes of configuration management commonly include all of the following except:",
+          "options": [
+            "Configuration identification",
+            "Configuration status accounting",
+            "Configuration chartering",
+            "Configuration audit"
+          ],
+          "correctIndex": 2,
+          "explanation": "المرجع: PMBOK® Guide 6th Edition, pages 118-119; Practice Standard for Project Configuration Management (https://drm.pmi.org/Default.aspx?doc=Practice_Standard_Project_Configuration_Mana gement.pdf&r=http://www.pmi.org/PMBOK-Guide-and-Standards/Standards-Library-of- PMI-Global-Standards.aspx)"
+        },
+        {
+          "id": "lehmann-q163",
+          "level": "hard",
+          "question": "In order to prepare yourself for a new project assignment that requires adaptive methods, you have developed a plan for how to tailor the project management approach using a combination of some agile principles with other, more predictive techniques. Regarding your own personal development, which aspect of the PMI talent triangle did you particularly address?",
+          "options": [
+            "Strategic & Business",
+            "Leadership",
+            "Technical",
+            "None of the above"
+          ],
+          "correctIndex": 2,
+          "explanation": "المرجع: PMBOK® Guide 6th Edition, page 58. 106"
+        },
+        {
+          "id": "lehmann-q164",
+          "level": "hard",
+          "question": "The organization for which you are currently managing an IT infrastructure project has informed you that they have hired an agile coach who is now available to help with several projects, including yours. In a meeting to get to know each other, the coach suggests to introduce regular project retrospectives. You are thinking about what the person might be referring to. What would be the best answer?",
+          "options": [
+            "Meetings for the project team to look back into the recent past in order to identify lessons learned so far, and possible improvements",
+            "Meetings with the project sponsor to look into the long-term project future in order to identify possible necessary resource allocations",
+            "Meetings with the key stakeholders to look at the latest deliverables in order to evaluate their validity and usefulness, as well as identify possible rework.",
+            "Meetings with power users of the software from within the company in order to define possible new development tasks."
+          ],
+          "correctIndex": 0,
+          "explanation": "المرجع: PMBOK® Guide 6th Edition, page 224."
+        },
+        {
+          "id": "lehmann-q166",
+          "level": "medium",
+          "question": "Which of the following can usually be referred to as factors which trigger the need for a new project?",
+          "options": [
+            "Meet regulatory, legal, or social requirements",
+            "Satisfy stakeholder requests or needs",
+            "Implement or change business or technological strategies",
+            "All of the above and more"
+          ],
+          "correctIndex": 3,
+          "explanation": "المرجع: PMBOK® Guide 6th Edition, page 9."
+        },
+        {
+          "id": "lehmann-q167",
+          "level": "easy",
+          "question": "What is a project business case?",
+          "options": [
+            "A documented economic feasibility study for a project",
+            "A more detailed statement of work for a project",
+            "A collection of management plans for a project",
+            "A breakdown of project scope for a project"
+          ],
+          "correctIndex": 0,
+          "explanation": "المرجع: PMBOK® Guide 6th Edition, page 30."
+        },
+        {
+          "id": "lehmann-q168",
+          "level": "easy",
+          "question": "Which type of Organizational Process Asset should be updated by the project team?",
+          "options": [
+            "Processes, policies, and procedures",
+            "Corporate knowledge base",
+            "External enterprise environmental factors",
+            "Internal enterprise environmental factors"
+          ],
+          "correctIndex": 1,
+          "explanation": "المرجع: PMBOK® Guide 6th Edition, page 39-40."
+        },
+        {
+          "id": "lehmann-q174",
+          "level": "easy",
+          "question": "What is a purpose of agile release planning?",
+          "options": [
+            "Develop an early understanding what the final product, service or result will in exactly look like in the end.",
+            "Create a precise project schedule with long-term forecasts and accurate estimations",
+            "Providing a high-level summary timeline of the release schedule in less predictive projects",
+            "Outline the requirements in detail and make sure they are described as use cases"
+          ],
+          "correctIndex": 2,
+          "explanation": "المرجع: PMBOK® Guide 6th Edition, page 216."
+        },
+        {
+          "id": "lehmann-q176",
+          "level": "easy",
+          "question": "What does an iteration burndown chart track?",
+          "options": [
+            "Work remaining to be completed for the product",
+            "Work remaining to be completed in the iteration backlog",
+            "Work finished so far in the iteration",
+            "Work ideally completed on average in every iteration"
+          ],
+          "correctIndex": 1,
+          "explanation": "المرجع: PMBOK® Guide 6th Edition, page 226."
         }
       ]
     },
@@ -971,6 +1335,292 @@
           ],
           "correctIndex": 2,
           "explanation": "Confidential information should be respected (not disclosed to third parties without the express approval of the client). If you picked choice A, remember that the clients own the confidential information."
+        },
+        {
+          "id": "lehmann-q002",
+          "level": "easy",
+          "question": "What is the purpose of a project charter?",
+          "options": [
+            "To formally authorize a project or a phase and document initial requirements which satisfy the stakeholder’s needs and expectations.",
+            "To document how the project will be planned, executed, monitored/controlled, and closed.",
+            "To link the project, which is going to be planned, executed, and monitored/controlled to the ongoing work of the organization.",
+            "To describe the process of performing the work defined in the project management plan in order to achieve the project’s objectives."
+          ],
+          "correctIndex": 0,
+          "explanation": "المرجع: PMBOK® Guide 6th Edition, page 75."
+        },
+        {
+          "id": "lehmann-q011",
+          "level": "easy",
+          "question": "According to Bruce Tuckman, what are the stages of team development?",
+          "options": [
+            "Honeymoon, rejection, regression, acceptance, re-entry",
+            "Forming, storming, norming, performing (adjourning)",
+            "Tell, sell, consult, join",
+            "Direct, support, coach, delegate"
+          ],
+          "correctIndex": 1,
+          "explanation": "المرجع: Project Management JumpStart by Kim Heldman, page 214."
+        },
+        {
+          "id": "lehmann-q026",
+          "level": "hard",
+          "question": "You are in the process of planning a project and found that stakeholders often have varying objectives and requirements. This makes it hard to come up with a plan with which all objectives will be met. What is probably most helpful to ensure common understanding?",
+          "options": [
+            "Ask the project stakeholders to build focus groups in order to discuss and remedy conflicting interests.",
+            "Create an exhaustive document describing your point of view and ask stakeholders to review it.",
+            "Let each stakeholder write a statement of work, merge the documents to a project scope statement.",
+            "Use your authorization as the project manager to clearly prioritize the different objectives."
+          ],
+          "correctIndex": 0,
+          "explanation": "المرجع: PMBOK® Guide 6th Edition, page 142."
+        },
+        {
+          "id": "lehmann-q032",
+          "level": "medium",
+          "question": "You recently took over the assignment for a project. The project charter has been developed. What is an appropriate next step for you?",
+          "options": [
+            "Develop the risk register.",
+            "Develop the project milestone schedule.",
+            "Develop management plans.",
+            "Get approval for the project management plan."
+          ],
+          "correctIndex": 2,
+          "explanation": "المرجع: PMBOK® Guide 6th Edition, page 82."
+        },
+        {
+          "id": "lehmann-q033",
+          "level": "hard",
+          "question": "You scheduled a kick-off meeting in order to announce the start of your project, present the plan and develop consensus on it. Another topic will be explanation of each team member’s role. In addition, you planned some time for discussions. You published the agenda of the kick-off meeting some weeks ago to all invited attendees. Now, short term before the event, you receive various cancellations by team members, who say that they cannot join the meeting. But they will be with you when project work will start.",
+          "options": [
+            "The kick-off meeting is secondary, you are happy if the team members will do their jobs.",
+            "You should insist on the presence of the team members to the appointed date.",
+            "If you force team members’ presence, they would anyway be distracted by their current problems.",
+            "It is probably a good idea to reschedule the meeting to a day, when all team members can attend."
+          ],
+          "correctIndex": 1,
+          "explanation": "المرجع: Management JumpStart by Kim Heldman, page 78. 92"
+        },
+        {
+          "id": "lehmann-q034",
+          "level": "medium",
+          "question": "During a meeting, a discussion came up: To which degree does your project have to be compliant to the processes enumerated in the PMBOK® Guide? What should be the guiding principle to answer this question?",
+          "options": [
+            "The processes are meant as rough guidelines to which a team should only adhere if there is enough consensus.",
+            "The more processes the project team follows, the better the project’s performance will be.",
+            "The project manager must follow all 49 processes for project management without alterations.",
+            "The project team must select appropriate processes required to meet the project requirements."
+          ],
+          "correctIndex": 3,
+          "explanation": "المرجع: PMBOK® Guide 6th Edition, page 28."
+        },
+        {
+          "id": "lehmann-q036",
+          "level": "hard",
+          "question": "During project execution you found out that work is often not performed at the right time and in the right order. Deliverables are made by one team member that cannot be processed by another one. This already leads to timely rework and bad morale among team members. Which project management tool is most appropriate to deal with problems like this?",
+          "options": [
+            "Organization chart",
+            "RACI matrix",
+            "Communications management plan",
+            "Work authorization system"
+          ],
+          "correctIndex": 3,
+          "explanation": "المرجع: PMBOK® Guide 6th Edition, page 59 Project Management, Sixth Edition by G. Michael Campbell, page 235."
+        },
+        {
+          "id": "lehmann-q037",
+          "level": "hard",
+          "question": "Your management is applying the 10 percent solution: It has requested that you reduce the budget for the project which you are currently initiating by 10%. What will this probably mean for your project?",
+          "options": [
+            "If the budget is cut by 10%, then the project will have an accompanying degradation of quality by 10%.",
+            "If the project budget is an honest one, then a reduction in budget must be accompanied by a trade-off in either time or performance.",
+            "A 10% reduction in budget will be accompanied by a loss of performance much less than the target reduction in cost.",
+            "Most projects have \"padded\" estimates, and the budgetary reduction will force out the padding from the project."
+          ],
+          "correctIndex": 1,
+          "explanation": "المرجع: Project Management, A Systems Approach to Planning, Scheduling and Controlling by Harold Kerzner, 12th edition, page 575."
+        },
+        {
+          "id": "lehmann-q056",
+          "level": "easy",
+          "question": "What is the meaning of the acronym CSOW?",
+          "options": [
+            "A statement of work that is part of a contingency plan; it is commonly linked with Contingency reserves.",
+            "A statement of work that has been formally agreed upon by both parties and is therefore part of a contract.",
+            "A statement of work that is currently valid; this contrasts with the scope baseline, a formerly valid SOW.",
+            "A statement of work on project level that cumulates statements of work on cost account level"
+          ],
+          "correctIndex": 1,
+          "explanation": "المرجع: Delivering Project Excellence with the Statement of Work by Michael G. Martin, page 37."
+        },
+        {
+          "id": "lehmann-q060",
+          "level": "medium",
+          "question": "Your management announced that they want to put you on a stretch assignment. In this situation, you should consider that…60",
+          "options": [
+            "…a stretch assignment is going beyond your qualifications right from the start. Whatever your education, knowledge and skills are, you cannot fail personally. Congratulations.",
+            "…key stakeholders must have timely and complete information regarding your qualifications to make decisions regarding your suitability for the assignment.",
+            "…stretch assignments bear an increased risk of failure, and this is rarely outweighed by the learning and development experience expected to come with the assignment.",
+            "…you should avoid the increased hassle coming with the assignment. It will not be enough for you to simply satisfy requirements and achieve objectives. You will have to learn a lot."
+          ],
+          "correctIndex": 1,
+          "explanation": "المرجع: PMI Code of Ethics and Professional Conduct, page 2 (http://www.https://www.pmi.org/about/ethics/code)."
+        },
+        {
+          "id": "lehmann-q067",
+          "level": "medium",
+          "question": "While executing a project, you sense a slightly negative attitude in your team. Which type of document do you now need, among others, to better understand and then be able to improve the situation?",
+          "options": [
+            "Project charter",
+            "Team performance assessments",
+            "Cost baseline",
+            "Statement of work"
+          ],
+          "correctIndex": 1,
+          "explanation": "المرجع: PMBOK® Guide 6th Edition, page 343."
+        },
+        {
+          "id": "lehmann-q069",
+          "level": "easy",
+          "question": "A project charter is a document that…69",
+          "options": [
+            "…describes both the project scope and the product scope at detail level.",
+            "…authorizes the project and the use of organizational resources to meet project requirements.",
+            "…breaks down the project scope over several steps to describe the project on work package level.",
+            "…describes all activities which are necessary to create the project deliverables."
+          ],
+          "correctIndex": 1,
+          "explanation": "المرجع: PMBOK® Guide 6th Edition, page 75."
+        },
+        {
+          "id": "lehmann-q078",
+          "level": "hard",
+          "question": "You took over a customer project for your company. From the inputs available, including contract, statement of work and project charter, you have developed a project management plan. You already presented that plan in a meeting with key stakeholders including your project sponsor and some representatives from the customer organization. During the meeting you sensed a high level of dissatisfaction by the customer executives, who signaled that the project might not produce the results that their company had expected. In your understanding, all necessary actions have been planned to meet the customer’s requirements. What should you do next?",
+          "options": [
+            "Request a written statement from the customer detailing the requirements which they believe are not addressed by your plan. Use this statement to update the project plan.",
+            "Arrange meetings with the customer to identify their needs, wants and expectations for the project. Then create a narrative Scope statement from this information to document the agreed upon project scope.",
+            "Request a formal meeting on top executive level to get the misunderstandings sorted out, then arrange a change request, re-plan your project where necessary and go ahead with the project work.",
+            "Do not over-react. Performed according to your plan, the project will produce a convincing product for the customer. As soon as the executives will see it, they will probably change their opinion and accept it."
+          ],
+          "correctIndex": 1,
+          "explanation": "المرجع: PMBOK® Guide 6th Edition, page 151."
+        },
+        {
+          "id": "lehmann-q101",
+          "level": "medium",
+          "question": "At the end of an internal project, you find several key stakeholders including the sponsor reluctant to finally accept all deliverables and then close the project. What should not be your next step in this situation?",
+          "options": [
+            "Identify any open issues and get them solved. Then be firm on formal closure.",
+            "Formally close the project. Stakeholders will find a way by themselves to sort things out.",
+            "Identify and openly discuss personal rationales underlying the reluctance.",
+            "Invite earnest feedback from all sides and try to identify misunderstandings."
+          ],
+          "correctIndex": 1,
+          "explanation": "المرجع: PMBOK® Guide 6th Edition, page 121."
+        },
+        {
+          "id": "lehmann-q102",
+          "level": "medium",
+          "question": "When running a project as a project manager, what should you focus on during the executing processes?",
+          "options": [
+            "Doing project work",
+            "Coordinating people and resources",
+            "Ensuring accountability for errors",
+            "Avoid third-party influence"
+          ],
+          "correctIndex": 1,
+          "explanation": "المرجع: PMBOK® Guide 6th Edition, page 90."
+        },
+        {
+          "id": "lehmann-q108",
+          "level": "medium",
+          "question": "You are identifying key stakeholders for your project. Which of the following groups is least likely to be included?",
+          "options": [
+            "Project manager and project team",
+            "Customer and users",
+            "Sponsor",
+            "Media representatives"
+          ],
+          "correctIndex": 3,
+          "explanation": "المرجع: PMBOK® Guide 6th Edition, pages 550-551."
+        },
+        {
+          "id": "lehmann-q114",
+          "level": "easy",
+          "question": "Who should always issue the project charter?",
+          "options": [
+            "A person internal to the project organization",
+            "A project initiator or sponsor",
+            "A low-level manager of the performing organization",
+            "A high-level manager of the performing organization"
+          ],
+          "correctIndex": 1,
+          "explanation": "المرجع: PMBOK® Guide 6th Edition, page 77."
+        },
+        {
+          "id": "lehmann-q123",
+          "level": "medium",
+          "question": "You have recently been named as the manager of a new project under contract. The sponsor of the project gave you the contract signed by the customer and a statement of work. He asked you to go on with initiation. Which document should you develop next?",
+          "options": [
+            "Project management plan",
+            "Milestone schedule",
+            "Project charter",
+            "Scope statement"
+          ],
+          "correctIndex": 2,
+          "explanation": "المرجع: PMBOK® Guide 6th Edition, page 75."
+        },
+        {
+          "id": "lehmann-q128",
+          "level": "medium",
+          "question": "During a project, you applied a series of measurements relating to team performance and product performance. You were warned that the act of measurement may influence the outcomes. What is this measurement pitfall referred to?",
+          "options": [
+            "Hawthorne effect",
+            "Confirmation bias",
+            "Correlation vs. causation",
+            "Root cause analysis"
+          ],
+          "correctIndex": 0,
+          "explanation": "المرجع: PMBOK® Guide 7th Edition, page 112."
+        },
+        {
+          "id": "lehmann-q156",
+          "level": "easy",
+          "question": "When should the project schedule be developed?",
+          "options": [
+            "As early into the project as possible. A committed schedule should be there before any initiating or planning processes are applied for the project.",
+            "During initiating. The definite project schedule should be developed concurrently with the project contract (if applicable) and the project charter.",
+            "Scheduling should be avoided. Agile approaches with a backlog and a weekly to 4-weekly meeting cycle are sufficient for modern project management.",
+            "When most planning processes from time, scope, and procurement management have been finished. These will then be iterated when necessary."
+          ],
+          "correctIndex": 3,
+          "explanation": "المرجع: PMBOK® Guide 6th Edition, page 205."
+        },
+        {
+          "id": "lehmann-q159",
+          "level": "easy",
+          "question": "What is not the main purpose of a final project report?",
+          "options": [
+            "Preparing acceptance of the final product, service or result.",
+            "Making stakeholders aware that the project has been closed out.",
+            "Acknowledging what has been done and achieved by all contributors.",
+            "If a project has been cancelled before completion: Explaining the causes."
+          ],
+          "correctIndex": 0,
+          "explanation": "المرجع: PMBOK® Guide 6th Edition, page 127; Identifying and Managing Project Risk: Essential Tools for Failure-Proofing Your Project by Tom Kendrick, Second Edition, page 323."
+        },
+        {
+          "id": "lehmann-q179",
+          "level": "easy",
+          "question": "Which is a category framework that is suitable for prompt lists?",
+          "options": [
+            "S.C.O.P.E.",
+            "V.U.C.A.",
+            "F.R.E.S.H.",
+            "S.O.F.T.E.N."
+          ],
+          "correctIndex": 1,
+          "explanation": "المرجع: PMBOK® Guide 6th Edition, page 416."
         }
       ]
     },
@@ -1601,6 +2251,461 @@
           ],
           "correctIndex": 3,
           "explanation": "Can you explain why choice A and B are unethical? Choice C simply withdraws from the problem and is therefore not the best solution. The only possible choice is D. That choice would involve quality and other experts to find a resolution."
+        },
+        {
+          "id": "lehmann-q014",
+          "level": "hard",
+          "question": "Your project is running into a number of issues that could have been predicted using a formal risk management process with appropriate documentation Which document could have helped you and should have been developed along the risk management processes from identify risks through plan and implement risk responses to monitor risks?",
+          "options": [
+            "List of risk triggers",
+            "Risk register",
+            "Risk mitigation",
+            "Decision tree"
+          ],
+          "correctIndex": 1,
+          "explanation": "المرجع: PMBOK® Guide 7th Edition, page 185. 90"
+        },
+        {
+          "id": "lehmann-q016",
+          "level": "easy",
+          "question": "A facilitator should…16",
+          "options": [
+            "…be in full control of the discussion and its outcomes.",
+            "…always take notes by herself.",
+            "…avoid a flip chart parking lot.",
+            "…give guidance as required without interfering."
+          ],
+          "correctIndex": 3,
+          "explanation": "المرجع: Project Management, A Systems Approach to Planning, Scheduling and Controlling by Harold Kerzner, 12th edition, page 226."
+        },
+        {
+          "id": "lehmann-q017",
+          "level": "medium",
+          "question": "As the project manager in a software project which is currently initiated, you want to assess high- level risks. What should you do?",
+          "options": [
+            "Develop the project charter and a risk management plan to start identifying risks based on those and other documents.",
+            "Identify and analyze risk events using qualitative and quantitative techniques.",
+            "Develop contingency plans and fallback plans in case the original plan proves wrong.",
+            "Discuss the risks documented in your Risk register with the project key stakeholders."
+          ],
+          "correctIndex": 0,
+          "explanation": "المرجع: PMBOK® Guide 6th Edition, pages 75 and 405."
+        },
+        {
+          "id": "lehmann-q021",
+          "level": "easy",
+          "question": "A WBS dictionary is a document which…21",
+          "options": [
+            "… describes technical terms used for scope management.",
+            "… describes the details for each component in the WBS.",
+            "… translates essential WBS terms for global project teams.",
+            "… helps translate functional into technical requirements."
+          ],
+          "correctIndex": 1,
+          "explanation": "المرجع: PMBOK® Guide 6th Edition, page 162."
+        },
+        {
+          "id": "lehmann-q040",
+          "level": "medium",
+          "question": "The term baseline is used in both disciplines project management and configuration management. Which statement is not true?",
+          "options": [
+            "Baselines in system configurations are often also referred to as deltas.",
+            "In configuration management, baselines are used to control change.",
+            "Project management baselines are used for performance measurement.",
+            "In project management, baselines help assess variance and trends."
+          ],
+          "correctIndex": 0,
+          "explanation": "المرجع: PMBOK® Guide 6th Edition, pages 83, 117-119."
+        },
+        {
+          "id": "lehmann-q041",
+          "level": "easy",
+          "question": "The scope baseline includes____.",
+          "options": [
+            "The various management plans of the project",
+            "Schedule baseline and cost baseline",
+            "Product configuration ID and statement of work",
+            "WBS dictionary, WBS, scope statement"
+          ],
+          "correctIndex": 3,
+          "explanation": "المرجع: PMBOK® Guide 6th Edition, page 131."
+        },
+        {
+          "id": "lehmann-q045",
+          "level": "medium",
+          "question": "The ________ is a document which describes how the project management team will implement the performing organization’s quality policy.",
+          "options": [
+            "Quality assurance plan",
+            "Quality management plan",
+            "Quality commitment",
+            "Quality audit"
+          ],
+          "correctIndex": 1,
+          "explanation": "المرجع: PMBOK® Guide 6th Edition, page 286."
+        },
+        {
+          "id": "lehmann-q046",
+          "level": "easy",
+          "question": "What do you expect when you are submitting an invitation for bid to sellers?",
+          "options": [
+            "Offers which will differ significantly in solution approach and price.",
+            "Offers which are similar enough to allow a selection based on price.",
+            "Offers which are not primarily written to win against competition.",
+            "General information on a seller’s ability to provide the goods or services."
+          ],
+          "correctIndex": 1,
+          "explanation": "المرجع: Project Business Management by Oliver F. Lehmann, pages 91-92."
+        },
+        {
+          "id": "lehmann-q049",
+          "level": "medium",
+          "question": "You are running a major project with four sub-projects. Each of the sub-project managers has developed a risk management plan, identified many risks, analyzed them and planned for risk response. It is now two months later. What should you not do?",
+          "options": [
+            "Ensure that they handle all risks to save you from project level risk control.",
+            "Make sure that the sub project managers monitor their project work for new and changing risks.",
+            "Make sure that the sub project managers keep track of the identified risks and those on the watch list.",
+            "Make sure that the sub-project managers monitor trigger conditions for contingency plans."
+          ],
+          "correctIndex": 0,
+          "explanation": "المرجع: PMBOK® Guide 6th Edition, page 397."
+        },
+        {
+          "id": "lehmann-q054",
+          "level": "medium",
+          "question": "A project manager’s PDM network schedule gets audited by a scheduling expert. The expert tells the project manager to focus more on nodes with “path convergence”, also known as “sinks”. What is the person referring to?",
+          "options": [
+            "Nodes in a WBS, where several branches are brought back together.",
+            "Nodes in a conditional network diagram, at which it becomes deterministic.",
+            "Nodes in a decision tree, showing various branches with the same chance.",
+            "Nodes in a network logic diagram which have multiple predecessors."
+          ],
+          "correctIndex": 3,
+          "explanation": "المرجع: PMBOK® Guide 6th Edition, page 194."
+        },
+        {
+          "id": "lehmann-q062",
+          "level": "medium",
+          "question": "In configuration management, which of the following is necessary to maintain the integrity of baselines?",
+          "options": [
+            "Analyzing variances by comparing baseline information with actual project data.",
+            "Releasing only approved changes for incorporation into products or services.",
+            "Ensuring that team members adhere to a code of ethical conduct and behavior.",
+            "Ensuring transparency across all project management processes and activities."
+          ],
+          "correctIndex": 1,
+          "explanation": "المرجع: PMBOK® Guide 6th Edition, pages 118-119."
+        },
+        {
+          "id": "lehmann-q064",
+          "level": "easy",
+          "question": "Which is not a point used for three-point estimation?",
+          "options": [
+            "Optimistic estimate",
+            "Most likely estimate",
+            "Budget estimate",
+            "Pessimistic estimate"
+          ],
+          "correctIndex": 2,
+          "explanation": "المرجع: PMBOK® Guide 6th Edition, page 244."
+        },
+        {
+          "id": "lehmann-q066",
+          "level": "hard",
+          "question": "During project planning, you are presented with the following diagram that depicts a cumulative likelihood distribution for the duration of a project: Deadline 100% 0% Duration What kind of conclusion can you draw from the information depicted in it?",
+          "options": [
+            "The likeliness that the project will finish exactly at the date marked with “Deadline” is 80%.",
+            "The likeliness that the project team will exceed the date marked with “Deadline” is at 80%.",
+            "If the project team will meet the deadline, project costs will be 80% of the budgeted costs.",
+            "The likeliness that the project team will meet the deadline or will finish earlier is at 80%."
+          ],
+          "correctIndex": 3,
+          "explanation": "المرجع: PMBOK® Guide 6th Edition, page 436."
+        },
+        {
+          "id": "lehmann-q068",
+          "level": "hard",
+          "question": "The sales representative of your company recently contacted you. You made some estimates on direct costs for an offer on a firm fixed-price contract. According to company policies, indirect costs (overheads) are to be calculated as a percentage of the direct costs, the sum of both cost types caused him to calculate a far too high price. How should you not react?",
+          "options": [
+            "You reduce your direct cost estimates by reducing the amount of work and the rates allocated to them. This allows a reduction of the overhead costs and a lower price.",
+            "Calculating overheads as a percentage of direct costs is just a model to simplify calculations. A more specific analysis of these costs may lead to a more realistic project price.",
+            "Cost estimates are quantitative assessments of the probable costs required to complete project work. These are made by the project team. It is the sales person’s job to make the price.",
+            "You make the sales person aware that a reduction of direct costs may reduce the numbers for overhead cost allocation, but will not influence the actual overheads."
+          ],
+          "correctIndex": 0,
+          "explanation": "المرجع: PMBOK® Guide 6th Edition, pages 240, 245-246."
+        },
+        {
+          "id": "lehmann-q075",
+          "level": "medium",
+          "question": "An organization is considering various contract types in order to motivate sellers and to ensure preferential treatment. What should they consider before deciding to use an award fee contract?",
+          "options": [
+            "Payment of an award fee would be linked to the achievement of objective performance criteria.",
+            "Any unresolved dispute over the payment of an award fee would be subject to remedy in court.",
+            "Payment of an award fee would be agreed upon by both the customer and the contractor.",
+            "Payment of an award fee is decided upon by the customer based on the degree of satisfaction."
+          ],
+          "correctIndex": 3,
+          "explanation": "المرجع: PMBOK® Guide 6th Edition, page 472."
+        },
+        {
+          "id": "lehmann-q077",
+          "level": "easy",
+          "question": "_______ are not necessarily used to establish the cost baseline of a project.",
+          "options": [
+            "Schedule activity or work package cost estimates",
+            "The work breakdown structure and the WBS dictionary",
+            "The project schedule and the resource management plan",
+            "The risk breakdown structure and the risk report"
+          ],
+          "correctIndex": 3,
+          "explanation": "المرجع: PMBOK® Guide 6th Edition, page 248."
+        },
+        {
+          "id": "lehmann-q079",
+          "level": "easy",
+          "question": "What is not true for project deliverables?",
+          "options": [
+            "Project deliverables should be identified, described and agreed upon as early in the project as possible.",
+            "Project deliverables may be products, capabilities for services or other kinds of results.",
+            "Once project deliverables have been identified, their description should not be changed any more.",
+            "The acceptance process for deliverables and how rejection will be addressed should be described in the contract."
+          ],
+          "correctIndex": 2,
+          "explanation": "المرجع: PMBOK® Guide 6th Edition, page 151."
+        },
+        {
+          "id": "lehmann-q081",
+          "level": "hard",
+          "question": "Being the project manager in a high-risk electronics project with a lot of new technologies, you developed a risk management plan and identified risks which you documented in a risk register. Then, the risks were analyzed and response was planned. During risk control meetings, it gets obvious that the documents you created are not very helpful. What have you probably done wrong?",
+          "options": [
+            "You failed to use an RBS.",
+            "You did the first processes alone.",
+            "You did not identify Triggers.",
+            "You did not calculate EMVs."
+          ],
+          "correctIndex": 1,
+          "explanation": "المرجع: PMBOK® Guide 6th Edition, pages 414, 422, 431-432, 441-442. 97"
+        },
+        {
+          "id": "lehmann-q086",
+          "level": "hard",
+          "question": "You are just leaving a meeting during which you have been assigned as the manager of a project to build a sub-station that is part of a major electric power distribution system. The decision to run the project has been made before your assignment and without your involvement. Some basic decisions on deliverables, staffing, budgeting and on the completion date have already been made as well. What should you do first?",
+          "options": [
+            "Obtain a project charter which links the project to the strategy and ongoing work of the organization and documents the initial decisions.",
+            "Create a project schedule for your project which shows all major milestones and deadlines linked with them. Then try to obtain approval for the schedule.",
+            "Start developing a detailed risk register which includes identified risks with their qualitative and quantitative assessments and a response plan.",
+            "Start the quality assurance process by developing test procedures for the final deliverable and defining metrics against which the tests will be performed."
+          ],
+          "correctIndex": 0,
+          "explanation": "المرجع: PMBOK® Guide 6th Edition, page 75."
+        },
+        {
+          "id": "lehmann-q089",
+          "level": "hard",
+          "question": "You created a baseline of your system configuration and added several changes to that as amendments. Meanwhile you are afraid that the big number of Deltas may cause inconsistencies and make you unable to understand the current system configuration. What should you do?",
+          "options": [
+            "Proclaim a design freeze.",
+            "Go on with amendments.",
+            "Revise the baseline.",
+            "Create an entirely new configuration."
+          ],
+          "correctIndex": 2,
+          "explanation": "المرجع: PMBOK® Guide 6th Edition, page 120."
+        },
+        {
+          "id": "lehmann-q092",
+          "level": "medium",
+          "question": "During planning processes, you used Monte Carlo simulation to quantitatively assess cost and schedule risks of your project. During risk control, you repeat the technique, and it leads to different results. What should not be the reason for that?",
+          "options": [
+            "Some assumptions during planning have meanwhile become fact-based knowledge, so that the risks related to them have vanished or have become certain problems.",
+            "New risks may have been identified. These influence the input data used for Monte Carlo simulation in a way which was not predictable at the time when the simulation was run.",
+            "Some constraints have been identified originally, but their influence on the project was unclear when the simulation was run for the first time. By now, the team understands these constraints much better and has been able to adjust the simulation.",
+            "Some dummy activities in the network logic have an element of uncertainty, which gets bigger over time. While the project proceeds, it gets even harder to predict how the team members assigned to them will perform."
+          ],
+          "correctIndex": 3,
+          "explanation": "المرجع: PMBOK® Guide 6th Edition, page 453."
+        },
+        {
+          "id": "lehmann-q104",
+          "level": "medium",
+          "question": "A project customer and a contractor agreed on regular quality audits during execution by a third party audit team, which is working on an assignment for the customer. What should the contractor have prepared for the audits?",
+          "options": [
+            "Work results",
+            "Measurements and test results",
+            "Quality documentation",
+            "Contract-related correspondence"
+          ],
+          "correctIndex": 2,
+          "explanation": "المرجع: PMBOK® Guide 6th Edition, pages 294-295."
+        },
+        {
+          "id": "lehmann-q111",
+          "level": "medium",
+          "question": "A project has undergone a major scope change, which increased cost and work levels. What does this mean for earned value data?",
+          "options": [
+            "The cost baseline will be updated and the new baseline will be the basis for future earned value analysis.",
+            "As baselines should generally not be adjusted, the project is due to exceed its budget from now on.",
+            "There are several reasons to change a baseline, but not scope changes. The project will exceed its budget.",
+            "Earned value analysis becomes useless after a scope change, the technique should not be used any more."
+          ],
+          "correctIndex": 0,
+          "explanation": "المرجع: PMBOK® Guide 6th Edition, page 112."
+        },
+        {
+          "id": "lehmann-q116",
+          "level": "easy",
+          "question": "A difference between a statement of work and a scope statement is:",
+          "options": [
+            "The statement of work is prepared by the customer while the scope statement is developed by the project management team.",
+            "The statement of work focuses on physical or technical matters, while the project scope statement focuses on a functional view.",
+            "The project scope statement is in most projects developed before the statement of work is written.",
+            "A project scope statement can become a contract document; a statement of work cannot."
+          ],
+          "correctIndex": 0,
+          "explanation": "المرجع: PMBOK® Guide 6th Edition, pages 154, 477."
+        },
+        {
+          "id": "lehmann-q118",
+          "level": "medium",
+          "question": "When should a time and material contract with a contractor been chosen instead of a fixed price contract?",
+          "options": [
+            "When cost risks for the customer should be limited but not schedule risks.",
+            "When project scope includes the progressive elaboration of the scope of deliverables.",
+            "When subcontractors are being used and the customer will reimburse their invoices.",
+            "When only a limited amount of money can be made available to fund the project."
+          ],
+          "correctIndex": 1,
+          "explanation": "المرجع: Program Management: A Comprehensive Overview of the Discipline by Mitchell L. Springer, page 34."
+        },
+        {
+          "id": "lehmann-q130",
+          "level": "medium",
+          "question": "Which question is not appropriate for a weighting system to evaluate seller’s performance according to weighted criteria?",
+          "options": [
+            "What is the yearly investment in development of personnel per year and employee?",
+            "How many reference customers have been verified by the seller in the specific field?",
+            "What financial status and reputation in the market place could be assessed?",
+            "Has a CV of the prospective project manager been sent with the proposal?"
+          ],
+          "correctIndex": 3,
+          "explanation": "المرجع: Software Project Management For Dummies by Teresa Luckey, Joseph Phillips, page 252."
+        },
+        {
+          "id": "lehmann-q138",
+          "level": "hard",
+          "question": "You are running a project which was budgeted based on some rough order of magnitude (ROM) estimates with a precision of -50% /+100%. Meanwhile, with new estimates made on detail level and some work already finished, you found out that these estimates were consistently too low and the budget will not be sufficient to successfully run and finish the project. What should you do?",
+          "options": [
+            "You shouldn’t worry too much, It is quite normal that early estimates are too optimistic, later estimates are too pessimistic and the project costs will finally settle somewhere in between. So relax!",
+            "Bring the issue to your sponsor and discuss how this should be handled. Together with the sponsor adhere to the guidelines which describe how budgets will be reviewed and refined.",
+            "Try to reduce scope or quality in areas where it cannot create difficulties for you and the team. Finally, it is not your responsibility that an insufficient budget has been created for the project.",
+            "Find a contractor who can run the project for you. Set the budget as a price limit during the bidding process and accept only firm fixed price (FFP) offers which do not exceed this price."
+          ],
+          "correctIndex": 1,
+          "explanation": "المرجع: PMBOK® Guide 6th Edition, page 241."
+        },
+        {
+          "id": "lehmann-q139",
+          "level": "easy",
+          "question": "Which is typically not specified in a document referred to as activity attributes?",
+          "options": [
+            "The person executing the work in a schedule activity",
+            "Schedule activity identifiers, codes and descriptions",
+            "Schedule activity predecessors and successors",
+            "The cost baseline assigned to the schedule activity"
+          ],
+          "correctIndex": 3,
+          "explanation": "المرجع: PMBOK® Guide 6th Edition, page 186."
+        },
+        {
+          "id": "lehmann-q142",
+          "level": "medium",
+          "question": "You are performing integrated change control. Which of the following will not be part of what you do?",
+          "options": [
+            "Reviewing and approving change requests",
+            "Maintaining the integrity of baselines",
+            "Performing milestone trend analysis (MTA)",
+            "Documenting the allover impact of requested changes"
+          ],
+          "correctIndex": 2,
+          "explanation": "المرجع: PMBOK® Guide 6th Edition, pages 113, 176."
+        },
+        {
+          "id": "lehmann-q144",
+          "level": "medium",
+          "question": "A management point in a work breakdown structure (WBS) used to consolidate and process work package data and forward the results to the project manager is called144",
+          "options": [
+            "Control account",
+            "Chart of accounts",
+            "Control limit",
+            "Account limit"
+          ],
+          "correctIndex": 0,
+          "explanation": "المرجع: PMBOK® Guide 6th Edition, page 160."
+        },
+        {
+          "id": "lehmann-q147",
+          "level": "easy",
+          "question": "The _______ can be used to assess outlays and funding requirements.",
+          "options": [
+            "Cost assignment matrix",
+            "Cost baseline",
+            "Cost variance analysis",
+            "Control account plan"
+          ],
+          "correctIndex": 1,
+          "explanation": "المرجع: PMBOK® Guide 6th Edition, page 254."
+        },
+        {
+          "id": "lehmann-q162",
+          "level": "hard",
+          "question": "For a project to replace an older ERP software with a more modern tool in an organization, you have identified a number of risks. You have documented them in a detailed list. A manger from executive level has asked you now to summarize the overall project risk exposure with appropriate metrics, as well as individual high-level risks along with a quick presentation of responses with their pros and cons. Which document is probably required by the person in this situation?",
+          "options": [
+            "Risk register",
+            "Risk management plan",
+            "Risk report",
+            "Risk traceability matrix"
+          ],
+          "correctIndex": 2,
+          "explanation": "المرجع: PMBOK® Guide 6th Edition, page 418."
+        },
+        {
+          "id": "lehmann-q165",
+          "level": "medium",
+          "question": "A project manager is asked to contribute to a document to describe what is intended to be achieved with a project once it is successfully finished, and how this will be measured. What could be the name of that document?",
+          "options": [
+            "Project management plan",
+            "Benefits management plan",
+            "Change management plan",
+            "Statement of work"
+          ],
+          "correctIndex": 1,
+          "explanation": "المرجع: PMBOK® Guide 6th Edition, page 33."
+        },
+        {
+          "id": "lehmann-q171",
+          "level": "easy",
+          "question": "Which of the following is usually recognized as a form of power for a project manager?",
+          "options": [
+            "Legal power",
+            "Budgetary power",
+            "Reward-oriented power",
+            "Culture-oriented power"
+          ],
+          "correctIndex": 2,
+          "explanation": "المرجع: PMBOK® Guide 6th Edition, page 63."
+        },
+        {
+          "id": "lehmann-q180",
+          "level": "easy",
+          "question": "How are a procurement lifecycle and contracts related?",
+          "options": [
+            "A project procurement lifecycles for a project can include several contracts.",
+            "A contract lifecycle is always longer than a procurement lifecycle.",
+            "A project contract lifecycle should always equal a procurement lifecycle.",
+            "Project lifecycle, contract lifecycle, and procurement lifecycle are unrelated."
+          ],
+          "correctIndex": 0,
+          "explanation": "المرجع: Project Business Management by Oliver F. Lehmann, page 246. 108"
         }
       ]
     },
@@ -1971,6 +3076,552 @@
           ],
           "correctIndex": 1,
           "explanation": ": Choice A would have a cost and lost profit impact on your company. Choice C is not ethical. If you are under contract, you can generally never stop work, so choice D is not acceptable. The project manager needs to be proactive in ensuring that everyone completes his or her activities (including the customer). Since your company is under contract to provide a product, you will need to ensure that your contractual obligations are fulfilled. In contract situations it is best to follow up serious verbal discussions with a letter (choice B)."
+        },
+        {
+          "id": "lehmann-q001",
+          "level": "medium",
+          "question": "Being assigned as a project manager, you noticed during project execution that conflicts arise in the team on both technical and interpersonal levels. What is an appropriate way of handling conflicts?",
+          "options": [
+            "Conflicts distract the team and disrupt the work rhythm. You should always smooth them when they surface.",
+            "A conflict should be handled in a meeting so that the entire team can participate in finding a solution.",
+            "Conflicts should be addressed early and usually in private, using a direct, collaborative approach.",
+            "You should use your coercive power to quickly resolve conflicts and then focus on goal achievement."
+          ],
+          "correctIndex": 2,
+          "explanation": "المرجع: PMBOK® Guide 6th Edition, page 348."
+        },
+        {
+          "id": "lehmann-q013",
+          "level": "medium",
+          "question": "How does a project management team stay in touch with the work and the attitudes of project team members?",
+          "options": [
+            "By observation and communication",
+            "Using closed questions during team meetings",
+            "Through third-party assessments",
+            "Through the team members’ functional managers"
+          ],
+          "correctIndex": 0,
+          "explanation": "المرجع: PMBOK® Guide 6th Edition, page 349."
+        },
+        {
+          "id": "lehmann-q018",
+          "level": "medium",
+          "question": "In most jurisdictions, a legally required order of formal statements establishing a contract is:",
+          "options": [
+            "Invitation to treat, offer, PO",
+            "Inquiry, bid, order",
+            "Offer, acceptance",
+            "MoU, LoI, final agreement"
+          ],
+          "correctIndex": 2,
+          "explanation": "المرجع: Project Management, A Systems Approach to Planning, Scheduling and Controlling by Harold Kerzner, 12th edition, pages 661ff."
+        },
+        {
+          "id": "lehmann-q019",
+          "level": "medium",
+          "question": "What should managers consider before conducting a performance evaluation interview with a project team member?",
+          "options": [
+            "Which management fallacies can most easily be delegated to the worker?",
+            "How can discussion of the manager’s leadership style be avoided?",
+            "Has the employee been provided with sufficient instructions and work tools?",
+            "How can dispute related to unsatisfactory performance be avoided?"
+          ],
+          "correctIndex": 2,
+          "explanation": "المرجع: PMBOK® Guide 6th Edition, pages 142, 310; Successful Interviewing by Diane Arthur, page 154."
+        },
+        {
+          "id": "lehmann-q020",
+          "level": "hard",
+          "question": "During team development, the handling of assumptions is causing problems. Some team members reject the notion that assumptions are an expression of uncertainty. Others recommended to make exploring assumptions an essential element of team building, following the Drexler/Sibbet Team Performance Model Which statement describes best the handling of assumptions in this model?",
+          "options": [
+            "It is the responsibility of the sales person in charge to identify all risks related to a customer project.",
+            "Managing and organizing assumptions means avoiding risks right from the start of the project.",
+            "Finding out more about assumptions should be an element of goal clarification by the team..",
+            "Risks are a sign of uncertainty. Avoiding all uncertainties means that a project should have no risks at all."
+          ],
+          "correctIndex": 2,
+          "explanation": "المرجع: PMBOK® Guide 7th Edition, page 167."
+        },
+        {
+          "id": "lehmann-q024",
+          "level": "medium",
+          "question": "At the beginning of project execution, you notice different opinions between team members relating to project work and deliverables and to the level of overall complexity. What should you do right now?",
+          "options": [
+            "Give your team members some time to develop a common understanding of the project scope and product scope. Upcoming interface problems may be resolved later.",
+            "Use the risk management processes to identify and assess risks caused by misunderstandings and develop a plan with measures in order to respond to them.",
+            "Organize meetings to identify and resolve misunderstandings between team members in order to avoid interface problems, disintegration and costly rework early in the project.",
+            "Use interviews in private with each individual team member to inform them of your expectations and your requirements in an atmosphere of confidence."
+          ],
+          "correctIndex": 2,
+          "explanation": "المرجع: PMBOK® Guide 6th Edition, page 342."
+        },
+        {
+          "id": "lehmann-q025",
+          "level": "medium",
+          "question": "You have just taken over as manager of a project that will create many benefits for the performing organization, but you sense a high level of resistance in various stakeholders right from the start. What is the most appropriate action to resolve the problem?",
+          "options": [
+            "Develop a responsibility assignment matrix (RAM) which clearly shows the responsibility of each stakeholder for the various project activities and who needs to be consulted and informed.",
+            "Develop an organization diagram, which places each of the stakeholders at an appropriate position inside the project and allows for certain lines of communication while disallowing others.",
+            "Schedule a meeting with these stakeholders to present the project, discuss and establish ground rules, ensure their involvement and identify initial personal and organizational issues.",
+            "Do not talk to these stakeholders too much at this time, instead create faits accomplis, which will later force the stakeholders to support the project due to a lack of alternatives for them."
+          ],
+          "correctIndex": 2,
+          "explanation": "المرجع: PMBOK® Guide 6th Edition, page 86."
+        },
+        {
+          "id": "lehmann-q030",
+          "level": "hard",
+          "question": "During the execution of a project to build a complex defense system, your team has run into a deep crisis. The project’s goal and objectives have been challenging right from the start, but now you have discovered that your team members have become increasingly unaware of them. Being busy solving detail problems, they often fail to understand the overall requirements. Then they develop solutions which resolve issues in their area of limited responsibility, while causing new problems at the interfaces with other system components. Meanwhile, the team members show signs of growing frustration, and time is running away. How can you help your team in this situation?",
+          "options": [
+            "Accompany your team members along a sequence of maturity levels from dependence through independence to interdependence.",
+            "Ignore the low-level issues and focus on achieving the overall requirements, details can be sorted out during test and handover.",
+            "If everybody simply does their jobs, then there should be no problem. Make sure that team members are fully aware of their accountability.",
+            "Problems of this dimension have their origin in fundamental personal incompatibilities between team members. You should replace them all."
+          ],
+          "correctIndex": 0,
+          "explanation": "المرجع: The Human Aspects of Project Management: Managing the Project Team by Vijay K. Verma, Volume Three, page 70."
+        },
+        {
+          "id": "lehmann-q038",
+          "level": "hard",
+          "question": "While applying procurement management processes in your project, you identified the need to gain a more objective understanding of sellers’ capabilities in order to rank proposals and develop a negotiating sequence. Which technique may help avoid bias and subjective decisions best?",
+          "options": [
+            "Bidder conference",
+            "Weighting system",
+            "Oral contract",
+            "Letter of intent"
+          ],
+          "correctIndex": 1,
+          "explanation": "المرجع: Project Management, A Systems Approach to Planning, Scheduling and Controlling by Harold Kerzner, 12th edition, page 669."
+        },
+        {
+          "id": "lehmann-q042",
+          "level": "medium",
+          "question": "During human resource planning you identified that your team members are not sufficiently qualified for their tasks. Which may be an appropriate solution to this problem?",
+          "options": [
+            "Reduce level of effort",
+            "Develop a training plan",
+            "Plan quality audits",
+            "Plan quality inspections"
+          ],
+          "correctIndex": 1,
+          "explanation": "المرجع: PMBOK® Guide 6th Edition, page 319 (“training”). 93"
+        },
+        {
+          "id": "lehmann-q043",
+          "level": "hard",
+          "question": "You are performing a customer project for a customer in a high-context cultural environment, while you and your team are in a low context country. Different communication styles and contents repeatedly led to conflicts between the organizations. What is typical for high-context cultures?",
+          "options": [
+            "Technical means for communications can focus on transfer of spoken and written language.",
+            "Communication is preferred which avoids passing over a great deal of additional information.",
+            "A message has only limited meaning without an understanding of the surrounding context.",
+            "To understand a message, no information on history or personal opinions is needed."
+          ],
+          "correctIndex": 2,
+          "explanation": "المرجع: Mastering Virtual Teams: Strategies, Tools, and Techniques That Succeed by Deborah L. Duarte and Nancy Tennant Snyder, Second Edition, page 56."
+        },
+        {
+          "id": "lehmann-q047",
+          "level": "easy",
+          "question": "What is important for quality auditors?",
+          "options": [
+            "They must be in-house personnel.",
+            "They must be external-party staff.",
+            "They must be mandated by the auditee.",
+            "They must be properly trained."
+          ],
+          "correctIndex": 3,
+          "explanation": "المرجع: PMBOK® Guide 6th Edition, pages 294-295."
+        },
+        {
+          "id": "lehmann-q055",
+          "level": "hard",
+          "question": "The members of your project team have been assigned to your project with general availability levels of 50%. Yesterday, they reported to you that significant variances occurred during project execution. You have noted that the team members have been spending less than 50% of their time working on your project. Your project schedule is about to become heavily delayed, and deadlines are in jeopardy. What should you do?",
+          "options": [
+            "Talk to your sponsor and try to get more resources assigned on similar conditions as the existing ones.",
+            "Talk with functional managers. Negotiate clear and written assignments with reliable scheduling priorities.",
+            "Ignore the difficulties, adjust your schedule and negotiate new deadlines according to the slower progress.",
+            "Focus on internal charges. Make sure that your project is not getting charged for more than the actual work."
+          ],
+          "correctIndex": 1,
+          "explanation": "المرجع: PMBOK® Guide 6th Edition, pages 47."
+        },
+        {
+          "id": "lehmann-q059",
+          "level": "hard",
+          "question": "During execution of a project, you observe that the performance of some of your team members is dropping, while others are doing a consistently good job. This is endangering overall project progress. What should you try first to bring the team as a whole back to performance?",
+          "options": [
+            "Organize a team meeting and discuss openly the bad performance of the weak team members. Try to find a joint solution during the meeting.",
+            "Introduce a competitive incentive system with a bonus for the 20% of your team which is performing better than the other 80%.",
+            "Do not interfere, but give the team some time to organize and to sort the problem out themselves.",
+            "Research causes for bad performance, solicit systematic feedback and search for solutions based on that."
+          ],
+          "correctIndex": 3,
+          "explanation": "المرجع: PMBOK® Guide 6th Edition, pages 342-343."
+        },
+        {
+          "id": "lehmann-q061",
+          "level": "hard",
+          "question": "Following the cultural approach of the corporation for which you are starting to manage a project, you are guiding your project team through the first life-cycle phase of conceptualization. Your next step is to call for a team meeting to let ideas emerge in an unrestricted creative process. What exactly should that look like?",
+          "options": [
+            "You write down the ideas of team members and structure them into categories of strengths, weaknesses, opportunities and threats during the session.",
+            "You creatively gather thoughts and ideas without any discussion or frowning. These ideas are only filtered and structured after the end of the brainstorming session.",
+            "Your team members wear hats with different colors, each of which stands for a way of thinking. Each member discusses topics from the viewpoint of their thinking.",
+            "You try to eradicate deviating ideas and concepts of team members during the meeting, so that the entire project team follows your principles."
+          ],
+          "correctIndex": 1,
+          "explanation": "المرجع: Project Management, A Systems Approach to Planning, Scheduling and Controlling by Harold Kerzner, 12th edition, page 223. 95"
+        },
+        {
+          "id": "lehmann-q065",
+          "level": "easy",
+          "question": "Which of the following are not common barriers to project team building?",
+          "options": [
+            "Differing outlooks, priorities, and interests",
+            "Role conflicts",
+            "Excessive team member commitment",
+            "Unclear project objectives/outcomes"
+          ],
+          "correctIndex": 2,
+          "explanation": "المرجع: Project Management, A Systems Approach to Planning, Scheduling and Controlling by Harold Kerzner, 12th edition, page 154."
+        },
+        {
+          "id": "lehmann-q071",
+          "level": "medium",
+          "question": "Which concept of locating team members can help them best to enhance their performance as a team?",
+          "options": [
+            "Colocation",
+            "Cross-functional dispersion",
+            "Virtual e-teams",
+            "Global team dispersion"
+          ],
+          "correctIndex": 0,
+          "explanation": "المرجع: PMBOK® Guide 6th Edition, page 340. 96"
+        },
+        {
+          "id": "lehmann-q080",
+          "level": "medium",
+          "question": "Your project, performed for a customer, is coming to an end. The customer has been contractually granted a three years warranty period for the product of the project. What should you do first?",
+          "options": [
+            "Hand all relevant documentation over to the organizational unit responsible for handling the warranty.",
+            "There is no additional work to be done. The contract should describe all processes in sufficient detail.",
+            "Changes on the product can affect warranty clauses. Ensure that these clauses are aligned with the final specifications.",
+            "According to many legislations, you cannot formally close a project before the end of the warranty period."
+          ],
+          "correctIndex": 2,
+          "explanation": "المرجع: PMBOK® Guide 6th Edition, page 499 (12.3.3.3)."
+        },
+        {
+          "id": "lehmann-q082",
+          "level": "medium",
+          "question": "Which is generally not regarded as one of the three categories of culture that managers should master?",
+          "options": [
+            "National culture",
+            "Organizational culture",
+            "Project culture",
+            "Functional culture"
+          ],
+          "correctIndex": 2,
+          "explanation": "المرجع: Mastering Virtual Teams: Strategies, Tools, and Techniques That Succeed by Deborah L. Duarte and Nancy Tennant Snyder, Second Edition, page 55."
+        },
+        {
+          "id": "lehmann-q087",
+          "level": "easy",
+          "question": "What is the purpose of the following diagram?",
+          "options": [
+            "Describing the influence of extreme weather conditions on progress and on the achievement of project objectives.",
+            "Comparing the relative importance of variables that have a high degree of uncertainty with those that are more stable.",
+            "Evaluating team performance and identifying team members with low productivity and work effectiveness.",
+            "Evaluating the degree to which project work and deliverables conform to the expectations of key stakeholders."
+          ],
+          "correctIndex": 1,
+          "explanation": "المرجع: PMBOK® Guide 6th Edition, page 443 (Sensitivity analysis and tornado diagram)."
+        },
+        {
+          "id": "lehmann-q093",
+          "level": "medium",
+          "question": "As a project manager you can assign any one of two team members to a highly coveted task. Both are equally capable, but one of them is a member of your in-group. To the other one, you have far more distance. How should you behave?",
+          "options": [
+            "You disclose the situation to stakeholders and solicit a joint decision.",
+            "You take the person not in your in-group to avoid misunderstandings.",
+            "Chose the in-group person. The trustful relation will benefit the project.",
+            "You delegate the decision to a third team member to avoid the conflict."
+          ],
+          "correctIndex": 0,
+          "explanation": "المرجع: PMI Code of Ethics and Professional Conduct, page 4 (www.https://www.pmi.org/about/ethics/code)."
+        },
+        {
+          "id": "lehmann-q096",
+          "level": "medium",
+          "question": "You are managing an internationally dispersed project team. The members of your team have different cultural backgrounds and primary languages, but all are educated and able to communicate eloquently in English. You should nevertheless bear in mind that…96",
+          "options": [
+            "…there are cultural differences. You should write one code of conduct for each nationality. You should then limit access to these codes.",
+            "…you may have to accept that team members from one country may not be prepared to work with colleagues from certain other countries.",
+            "…spoken communications can cause misunderstandings you may not find in written communications. These may be hard to identify.",
+            "…certain groups will be happy to stay awake over night to join telephone and video conferences during other members’ working time."
+          ],
+          "correctIndex": 2,
+          "explanation": "المرجع: The Project Management Tool Kit: 100 Tips and Techniques for Getting the Job Done Right by Tom Kendrick, page 51."
+        },
+        {
+          "id": "lehmann-q103",
+          "level": "medium",
+          "question": "A review of your project team member’s most recent performance reports shows a major drop in output. Which is the best approach to raise team productivity in a project?",
+          "options": [
+            "Increase the frequency of team review meetings and status reports.",
+            "Increase the pressure on each team member to adhere to deadlines.",
+            "Post a special reward for the best performing team member.",
+            "Improve feelings of trust and cohesiveness among team members."
+          ],
+          "correctIndex": 3,
+          "explanation": "المرجع: PMBOK® Guide 6th Edition, page 345."
+        },
+        {
+          "id": "lehmann-q106",
+          "level": "easy",
+          "question": "What should you focus on when managing the stakeholders of your project?",
+          "options": [
+            "Ensure the order of phases.",
+            "Address issues.",
+            "Identify the stakeholders.",
+            "Ensure stakeholder value."
+          ],
+          "correctIndex": 1,
+          "explanation": "المرجع: PMBOK® Guide 6th Edition, page 523."
+        },
+        {
+          "id": "lehmann-q109",
+          "level": "easy",
+          "question": "You are using a phase gate approach for your project. What do you need to consider?",
+          "options": [
+            "The order of phases must be strictly consecutive without overlapping in order to allow for gate reviews.",
+            "Gates are often called kill points, when they are used to eliminate weak team members.",
+            "Phase gates are often used to verify entry criteria of a previous phase and exit criteria of the next one.",
+            "Approaching phase gates early is a common signal that project planning has been poor."
+          ],
+          "correctIndex": 0,
+          "explanation": "المرجع: PMBOK® Guide 7th Edition, page 244."
+        },
+        {
+          "id": "lehmann-q112",
+          "level": "easy",
+          "question": "Which statement describes best the meaning of servant-leadership?",
+          "options": [
+            "Ensuring predictability in an uncertain environment",
+            "Sustaining an ongoing business over a long period of time",
+            "Adhering to publicized standards and procedures",
+            "Empowering the team to develop a vision and make decisions"
+          ],
+          "correctIndex": 3,
+          "explanation": "المرجع: PMBOK® Guide 6th Edition, pages 60-62."
+        },
+        {
+          "id": "lehmann-q117",
+          "level": "medium",
+          "question": "You are the manager of a project for a company that is known to make heavy use of extrinsic motivators in order to boost morale and team performance. What does that mean? The motivators used…117",
+          "options": [
+            "…are tailored to the needs of individual team members.",
+            "…are incentives such as rewards, gifts, or money.",
+            "…are derived from within individual team members.",
+            "…include the improvement of hygiene factors of the work environment."
+          ],
+          "correctIndex": 1,
+          "explanation": "المرجع: Project Management JumpStart by Kim Heldman, page 222."
+        },
+        {
+          "id": "lehmann-q121",
+          "level": "hard",
+          "question": "You are running a project to develop the production process for a future electronic component. Evaluating some first test batches, you found out that the precision is generally quite good, but that you have some irregular outliers in an increasing frequency. You believe that motivators in use for workers making the batches are losing their effectiveness and complacency creeps in. According to D. Pink. which motivators are least likely to lose effectiveness?",
+          "options": [
+            "Extrinsic motivators",
+            "Intrinsic motivators",
+            "Hygiene factors",
+            "Salary"
+          ],
+          "correctIndex": 1,
+          "explanation": "المرجع: PMBOK® Guide 6th Edition, page 159."
+        },
+        {
+          "id": "lehmann-q122",
+          "level": "easy",
+          "question": "As a leader, how should you deem ethical conduct?",
+          "options": [
+            "You should ensure ethical conduct throughout the team by use of means including recognition and awards and in tight cooperation with the team members’ line managers.",
+            "Ethical conduct is all right as long as it does not impact the achievement of objectives and does not damage the performing organization’s immediate options for profits.",
+            "You are the role model for the team. Your personal integrity demonstrates the desired skills, behavior, and attitudes whose adoption may benefit team members.",
+            "There are often dilemma situations in business. Then you may have to suspend your integrity and do what is appropriate. There may be long term negative effects, but these are not your responsibility"
+          ],
+          "correctIndex": 2,
+          "explanation": "المرجع: Agile Practice Guide, pages 33-37."
+        },
+        {
+          "id": "lehmann-q125",
+          "level": "hard",
+          "question": "You are running a project to engineer and implement a set of business processes and a software solution for customer relationship management. The project involves a big number of performing organizations―a major corporation and many suppliers of different sizes. During the project you observed a restraining effect of differences between the companies’ corporate cultures. This leads to different expectations on how such a project should be handled and to frequent misunderstandings between stakeholders. Another effect is a growing degree of distrust and skepticism. What should you try first to integrate the diverse stakeholder groups?",
+          "options": [
+            "Focus on project work. As a project manager you should not get distracted by big egos.",
+            "Let the problems grow further until they are obvious for all. Then escalate them.",
+            "Develop a joint quality policy for the project and seek commitment by all organizations.",
+            "Analyze probability and impact of the risks linked with the situation and plan how to respond to them."
+          ],
+          "correctIndex": 2,
+          "explanation": "المرجع: Project Business Management by Oliver F. Lehmann."
+        },
+        {
+          "id": "lehmann-q126",
+          "level": "medium",
+          "question": "During execution of your project you have observed that a team member is getting isolated by other team members. Which is a wrong approach in such a situation?",
+          "options": [
+            "The interpersonal relationships between team members are their private issue. You should not interfere.",
+            "You should apply team building measures to improve the team’s effectiveness.",
+            "You should try to get feedback from the isolated team member to understand the situation.",
+            "You should try to get feedback from the other team members to understand the situation."
+          ],
+          "correctIndex": 0,
+          "explanation": "المرجع: Project Management, A Systems Approach to Planning, Scheduling and Controlling by Harold Kerzner, 12th edition, page 154."
+        },
+        {
+          "id": "lehmann-q129",
+          "level": "medium",
+          "question": "The use of scarce resources must be decided upon with functional managers before it causes delays in your project. Which is probably your most important skill right now?",
+          "options": [
+            "Planning",
+            "Negotiating",
+            "Facilitating",
+            "Documenting"
+          ],
+          "correctIndex": 1,
+          "explanation": "المرجع: PMBOK® Guide 6th Edition, page 61. 102"
+        },
+        {
+          "id": "lehmann-q133",
+          "level": "easy",
+          "question": "Respect is… 133",
+          "options": [
+            "…a duty to show a high regard for oneself, others, and the resources entrusted.",
+            "…a limitation to trust, confidence and performance excellence through cooperation.",
+            "…accepting a level of information which may lead to disrespectful behavior.",
+            "…limited to respecting the physical and intellectual property rights of others."
+          ],
+          "correctIndex": 0,
+          "explanation": "المرجع: PMI Code of Ethics and Professional Conduct, page 3 (https://www.pmi.org/about/ethics/code)."
+        },
+        {
+          "id": "lehmann-q135",
+          "level": "easy",
+          "question": "Understanding cultural key similarities and differences is especially important for… 135",
+          "options": [
+            "…globally dispersed, cross-cultural and virtual teams.",
+            "…culturally homogeneous, co-located teams.",
+            "…project sub-teams and work cells.",
+            "…teams under high budget and schedule pressure."
+          ],
+          "correctIndex": 0,
+          "explanation": "المرجع: Mastering Virtual Teams: Strategies, Tools, and Techniques That Succeed by Deborah L. Duarte and Nancy Tennant Snyder, Second Edition, page 68 ."
+        },
+        {
+          "id": "lehmann-q136",
+          "level": "hard",
+          "question": "Your project team is on its way to finish work on the project, while you have the impression that a staff member is already negotiating the next assignment in another project. You are afraid that the person may come under pressure to start working on the other job before she has finished her work for your project. Her task is very complex, and it would be hard for someone else to take up the partial results and finish them. What action is most likely to resolve the situation?",
+          "options": [
+            "Have a private meeting with the person and discuss your observations. Make the person aware of the contract and of the legal consequences of unfinished work.",
+            "Have a meeting with the entire team and discuss the person’s expected early leave. Use team dynamics to buy in the commitment from the person to finish work orderly.",
+            "Use your network of project managers to find another assignment for the person which allows for smooth transition and does not conflict with your needs.",
+            "Ignore your observations and let the team member do her job. It is quite uncommon that staff drops work for a project before it is completely finished."
+          ],
+          "correctIndex": 2,
+          "explanation": "المرجع: PMBOK® Guide 6th Edition, page 350."
+        },
+        {
+          "id": "lehmann-q140",
+          "level": "medium",
+          "question": "In a country with high level of violence in public, a local police officer requires a private money transfer to ensure the safety of your team. How do you react?",
+          "options": [
+            "You regard this as bribery or at least as palm greasing and do not pay.",
+            "You do not pay but follow the chain of command and solicit a decision.",
+            "You regard it as a facilitation payment and pay the person.",
+            "You regard the situation as a gray area and pay through an agent."
+          ],
+          "correctIndex": 1,
+          "explanation": "المرجع: Mastering Virtual Teams: Strategies, Tools, and Techniques That Succeed by Deborah L. Duarte and Nancy Tennant Snyder, Second Edition, page 70."
+        },
+        {
+          "id": "lehmann-q152",
+          "level": "medium",
+          "question": "A project manager tracks the work of team members using a network logic diagram. Which effect will the presence of an actual finish date have on the calculation of float for the finished activity?",
+          "options": [
+            "Finished activities have only float left when they have been completed on schedule.",
+            "Calculating free float and total float is generally not reasonable for finished activities.",
+            "When an activity has been finished, total float gets often converted to become free float.",
+            "When an activity has been finished, float gets often converted to become slack."
+          ],
+          "correctIndex": 1,
+          "explanation": "المرجع: PMBOK® Guide 6th Edition, pages 210-211."
+        },
+        {
+          "id": "lehmann-q154",
+          "level": "medium",
+          "question": "The situational leadership model as defined by Paul Hersey and Ken Blanchard consists of the stages____.",
+          "options": [
+            "Must-be requirements, one-dimensional requirements, attractive requirements",
+            "Telling, selling, participating, delegating",
+            "Direct style, instrumental style, relational style",
+            "Acquisition stage, learning stage, performance stage, exhaustion stage"
+          ],
+          "correctIndex": 1,
+          "explanation": "المرجع: The New Dynamic Project Management: Winning Through the Competitive Advantage by Deborah S. Kezsbom and Katherine A. Edward, 2nd Edition, pages 266- 275. 105"
+        },
+        {
+          "id": "lehmann-q169",
+          "level": "easy",
+          "question": "What is not a characteristic of what is referred to as an “organic organization”?",
+          "options": [
+            "Low project manager authority",
+            "Low resource availability",
+            "Full-time project management administrative staff",
+            "Flexible work groups"
+          ],
+          "correctIndex": 2,
+          "explanation": "المرجع: PMBOK® Guide 6th Edition, page 47."
+        },
+        {
+          "id": "lehmann-q172",
+          "level": "medium",
+          "question": "A project manager hears about an issue and decides to ask the project team about more details as to how and when this happened. Is this more of a team management or more of a team leadership approach in this moment?",
+          "options": [
+            "More of a team management approach",
+            "More of a team leadership approach",
+            "Both",
+            "Neither"
+          ],
+          "correctIndex": 0,
+          "explanation": "المرجع: PMBOK® Guide 6th Edition, page 64."
+        },
+        {
+          "id": "lehmann-q173",
+          "level": "medium",
+          "question": "A Scrum Master talks to you about the impact and value of servant leadership. What is the person probably referring to?",
+          "options": [
+            "The idea that an organization can be leaderless and still fully functioning.",
+            "The belief that wishes and requirements of a leader have no importance.",
+            "The commitment to serve the team as a leader, and to put them first.",
+            "The idea of management by objectives when telling a team what to do."
+          ],
+          "correctIndex": 2,
+          "explanation": "المرجع: PMBOK® Guide 6th Edition, page 65. 107"
+        },
+        {
+          "id": "lehmann-q178",
+          "level": "easy",
+          "question": "Which is an advantage of self-organizing teams?",
+          "options": [
+            "Freedom of the project manager to make decisions",
+            "Faster decision-making processes by the project manager",
+            "Increased sense of responsibility of team members",
+            "Higher visibility of individual team members"
+          ],
+          "correctIndex": 2,
+          "explanation": "المرجع: PMBOK® Guide 6th Edition, page 310."
         }
       ]
     },
@@ -2510,6 +4161,409 @@
           ],
           "correctIndex": 0,
           "explanation": "Choice C is penalizing the employee and making her lose face. Choices B, C and D all involve decreasing the employee’s moral. Therefore the best choice, and the one that does not waste everyone’s time, is to cancel the meeting, get to the root cause of the problem and then fix it and reschedule the meeting (partially described in Choice A)."
+        },
+        {
+          "id": "lehmann-q005",
+          "level": "easy",
+          "question": "The communications management plan is a document which includes descriptions of5",
+          "options": [
+            "Project level performance reports",
+            "Activity level status reports",
+            "Stakeholder communication requirements",
+            "Project benefit analysis results"
+          ],
+          "correctIndex": 2,
+          "explanation": "المرجع: PMBOK® Guide 6th Edition, page 377."
+        },
+        {
+          "id": "lehmann-q010",
+          "level": "easy",
+          "question": "How should change management be planned for?",
+          "options": [
+            "Changes are generally not predictable, therefore planning for change management cannot be reasonable.",
+            "Planning for change management should be done while the various change control processes are being applied.",
+            "Change management can be planned in a set of management plans or a specific change management plan.",
+            "Changes are a sign of bad planning. One should avoid changes during a project, thus eliminating the need to manage them."
+          ],
+          "correctIndex": 2,
+          "explanation": "المرجع: PMBOK® Guide 6th Edition, page 113."
+        },
+        {
+          "id": "lehmann-q015",
+          "level": "medium",
+          "question": "A customer is requiring a minor scope change and expects you to do this without delays and additional costs. You believe that you have adequate authorization to make the decision by yourself, but you are not quite sure. What should be your next steps?",
+          "options": [
+            "A requested change is always an opportunity to get more money paid by the customer and to secretly solve schedule and quality problems. You should make some reasonable estimates on time, costs, risks etc. and then add a nice margin on top of that to calculate the new price.",
+            "Customer satisfaction is your top priority. The customer gives you an opportunity to increase their satisfaction, which you should use to the maximum benefit. Most project managers have contingencies to cover risks; these can be used to pay the additional costs.",
+            "Before making a decision you should have a look at the customer’s parking lot. If you find there many expensive, new models, it is likely that you can use the requested change to increase the profit from the contract. Otherwise you should reject the request.",
+            "Handle the request according to the integrated change control processes described in your management plans. Then make a decision together with the appropriate change control body, whether the increased customer satisfaction will be worth the extra costs, work, risks etc."
+          ],
+          "correctIndex": 3,
+          "explanation": "المرجع: PMBOK® Guide 6th Edition, page 113."
+        },
+        {
+          "id": "lehmann-q022",
+          "level": "hard",
+          "question": "You are in the process of contacting sellers to obtain bids and proposals. You found out that it might become a time-consuming procedure to ensure that the sellers get a clear and common understanding of the procurement process and of the needs of your project. Which technique may help you save time?",
+          "options": [
+            "Bidder conferences",
+            "Advertising",
+            "Qualified sellers list",
+            "Four-eyes meetings"
+          ],
+          "correctIndex": 0,
+          "explanation": "المرجع: PMBOK® Guide 6th Edition, page 487."
+        },
+        {
+          "id": "lehmann-q028",
+          "level": "medium",
+          "question": "You are the project manager for the development of a new type of power plant. Your project is making fast progress, and it is getting nearer to the day of product acceptance. Which technique will be most important for product acceptance?",
+          "options": [
+            "Inspection",
+            "Quality audit",
+            "Impact analysis",
+            "Team review"
+          ],
+          "correctIndex": 0,
+          "explanation": "المرجع: PMBOK® Guide 6th Edition, page 303."
+        },
+        {
+          "id": "lehmann-q031",
+          "level": "medium",
+          "question": "During execution in a project to build a major road bridge, your team found a major flaw in the technical drawings. On an ad-hoc base, they had to find and implement a workaround to avoid delays and mitigate technical problems. What should you do next?",
+          "options": [
+            "Meticulously document the problem and the workaround to create a requested change to the project management plan, which will then be passed to the body responsible for the change control decision.",
+            "The workaround was performed on a technical level only. As long as it does not influence the function of the bridge or the organizational configuration of the project, a change request will not be necessary.",
+            "A retroactive formal change request side is not reasonable. Create some additional documents describing the workaround and sign them by yourself, you can present them during the next regular CCB meeting.",
+            "It is normal in projects that during project execution inconsistencies arise between planning documents and actual implementation. This is no problem as long as the functional status of the product is maintained."
+          ],
+          "correctIndex": 0,
+          "explanation": "المرجع: PMBOK® Guide 6th Edition, page 113."
+        },
+        {
+          "id": "lehmann-q044",
+          "level": "easy",
+          "question": "In general, processes of configuration management do not include…44",
+          "options": [
+            "…identification and documentation of system or item characteristics.",
+            "…controlling changes to these characteristics in an integrative fashion.",
+            "…documenting and auditing changes and the implementation status.",
+            "…assigning responsibilities for change control and documentation."
+          ],
+          "correctIndex": 3,
+          "explanation": "المرجع: PMBOK® Guide 6th Edition, pages 118-119."
+        },
+        {
+          "id": "lehmann-q050",
+          "level": "easy",
+          "question": "What is true for statistical sampling?",
+          "options": [
+            "Statistical sampling can be used to verify for each individual item in a lot, whether it can be accepted or must be rejected.",
+            "Attribute sampling means collection of quantitative data showing the level of conformity for each item of a sample.",
+            "Variables sampling includes collection of quantitative data on the degree of conformity for each item of a sample.",
+            "Statistical sampling is commonly used in quality assurance to examine if items of a lot conform to quality standards."
+          ],
+          "correctIndex": 2,
+          "explanation": "المرجع: PMBOK® Guide 6th Edition, page 303."
+        },
+        {
+          "id": "lehmann-q052",
+          "level": "easy",
+          "question": "What is not true for change requests?",
+          "options": [
+            "Change requests should always be handled in a controlled and integrative fashion.",
+            "Change requests surpassing the formal change control processes can lead to scope creep.",
+            "Professionally managed, change requests can help improving a project and resolving emerging problems.",
+            "Change requests are always a sign of bad planning and should therefore be avoided."
+          ],
+          "correctIndex": 3,
+          "explanation": "المرجع: PMBOK® Guide 6th Edition, pages 67, 83, 96, 115, 120. 94"
+        },
+        {
+          "id": "lehmann-q053",
+          "level": "hard",
+          "question": "You recently assigned staff members to activities, estimated work and scheduled your project. You then created the following resource histogram for your staff: 100% 0% Project weeks What does this diagram tell you?",
+          "options": [
+            "The project can probably not be finished as scheduled.",
+            "You may be able to finish the project early by reassigning work.",
+            "You should avoid network logic diagramming for scheduling.",
+            "You may run into problems with dual reporting relationships."
+          ],
+          "correctIndex": 0,
+          "explanation": "المرجع: PMBOK® Guide 6th Edition, page 719."
+        },
+        {
+          "id": "lehmann-q070",
+          "level": "medium",
+          "question": "You identified a technical risk in your project and assigned a contingency for that. Planning contingency reserves is part of which risk response strategy?",
+          "options": [
+            "Active risk mitigation",
+            "Passive risk avoidance",
+            "Passive risk acceptance",
+            "Active risk acceptance"
+          ],
+          "correctIndex": 3,
+          "explanation": "المرجع: PMBOK® Guide 6th Edition, page 443 (“accept”)."
+        },
+        {
+          "id": "lehmann-q083",
+          "level": "hard",
+          "question": "Post-mortem analysis after scheduled finish date of a project shows a CPI of 0.8 and an SPI of 1.25. What is a plausible explanation for that?",
+          "options": [
+            "The project was terminated early. At that time, it was over budget and ahead of schedule.",
+            "The project has produced additional deliverables which were originally not required.",
+            "The project has evidently been finished under budget and behind of schedule.",
+            "The project has evidently been finished over budget and ahead of schedule."
+          ],
+          "correctIndex": 0,
+          "explanation": "المرجع: PMBOK® Guide 6th Edition, page 263 (a successfully finished project has an SPI of 1)."
+        },
+        {
+          "id": "lehmann-q084",
+          "level": "medium",
+          "question": "Some colleagues told you that they are planning, executing, monitoring and controlling a project by use of milestones only with durations between 1 and 4 weeks. What do you think?",
+          "options": [
+            "The approach is erroneous. A milestone is a significant point with zero duration to highlight achievements.",
+            "It is a good approach as long as the milestones reflect fixed or imposed dates during the project lifecycle only.",
+            "It is a good approach if the milestones are used for reviews between consecutive project phases only.",
+            "It is a good approach because it saves from progress measurement on activities and work packages."
+          ],
+          "correctIndex": 0,
+          "explanation": "المرجع: PMBOK® Guide 6th Edition, page 186."
+        },
+        {
+          "id": "lehmann-q085",
+          "level": "medium",
+          "question": "Together with your team, you applied three-point estimation on a cost item using a Beta distribution. The estimates (in USD) were made as - Optimistic: 15,000 - Most likely: 30,000 - Pessimistic: 75.000 What is the PERT value you would use?",
+          "options": [
+            "21,000",
+            "35,000",
+            "40,000",
+            "No statement is possible from the information given."
+          ],
+          "correctIndex": 1,
+          "explanation": "المرجع: PMBOK® Guide 6th Edition, page 245."
+        },
+        {
+          "id": "lehmann-q088",
+          "level": "easy",
+          "question": "Which is not a goal in both project management and quality management?",
+          "options": [
+            "Prevention over inspection",
+            "Customer satisfaction",
+            "Management responsibility",
+            "Triple constraint"
+          ],
+          "correctIndex": 3,
+          "explanation": "المرجع: PMBOK® Guide 6th Edition, pages 274-275."
+        },
+        {
+          "id": "lehmann-q110",
+          "level": "hard",
+          "question": "Post mortem earned value analysis of a project showed the following data: SPI: 0.78 CPI: 1.00 What is this telling you?",
+          "options": [
+            "The entire work of the project has been finished behind schedule and on budget.",
+            "The entire work of the project has been finished ahead of schedule and on budget.",
+            "The project has been terminated before completion. At that time it was behind schedule and on budget",
+            "The project has been terminated before completion. At that time it was ahead of schedule and on budget."
+          ],
+          "correctIndex": 2,
+          "explanation": "المرجع: PMBOK® Guide 6th Edition, page 267. 100"
+        },
+        {
+          "id": "lehmann-q113",
+          "level": "easy",
+          "question": "As a project manager, you must demonstrate transparency regarding… 113",
+          "options": [
+            "…confidential information.",
+            "…proprietary information.",
+            "…distribution of unproven information and gossip.",
+            "…your decision-making processes."
+          ],
+          "correctIndex": 3,
+          "explanation": "المرجع: PMI Code of Ethics and Professional Conduct, page 4 (https://www.pmi.org/about/ethics/code)."
+        },
+        {
+          "id": "lehmann-q119",
+          "level": "hard",
+          "question": "You are the manager of a major project to develop a system of barriers to prevent a seaside city from flooding. Together with your team you created a code of conduct stating that the change control board must be immediately notified of gifts when the value exceeds $90. The same applies to invitations when the value exceeds $150. Today, a contractor executive sent you an invitation for a night at an opera with a value of $95. It is a one-time event and you tried to obtain tickets by yourself without success. The person told you that he would so much wish to join you, but he will not be available on that day, and he could get hold of only one ticket anyway. What do you have to do?",
+          "options": [
+            "You are allowed to accept invitations with a value of up to $150, so there should be no problem.",
+            "One may regard the ticket as a gift, but it is just at the limit: You do not have to notify the CCB.",
+            "The ticket is a gift and over of the limit. You have to notify the CCB who will make the decision.",
+            "You are the project manager. The rules are in place to strengthen your position. They do not apply to you."
+          ],
+          "correctIndex": 2,
+          "explanation": "المرجع: PMI Code of Ethics and Professional Conduct, page 5, 5.3.1 and 5.3.2, https://www.pmi.org/about/ethics/code. 101"
+        },
+        {
+          "id": "lehmann-q132",
+          "level": "medium",
+          "question": "You gathered a lot of knowledge on project management in your business life. What is an appropriate use for that?",
+          "options": [
+            "Share your knowledge with the professional community in form of books, articles, lectures, seminars etc.",
+            "It is your knowledge, and it has a high market value. You may consider it your intellectual property, which you keep secret.",
+            "There are better project managers somewhere in this world. They should help developing the professional community.",
+            "Your job is managing projects for your customers. You should not worry about other project managers."
+          ],
+          "correctIndex": 0,
+          "explanation": "المرجع: PMP Handbook, pages 27-29, chapter: Professional Development Units (PDUs), categories 2-5 (pmi.org/Certification/~/media/PDF/Certifications/pdc_pmphandbook.ashx)."
+        },
+        {
+          "id": "lehmann-q134",
+          "level": "hard",
+          "question": "During a post-mortem meeting, discussion arises about who has to take responsibility for some major failures. It has become obvious that the attendees of the meeting will not come to a jointly accepted conclusion. What is not an appropriate strategy for such a situation?",
+          "options": [
+            "Separate the people from the problem",
+            "Focus on interests, not positions",
+            "Insist on objective criteria and standards",
+            "Suspend the discussion and schedule another meeting"
+          ],
+          "correctIndex": 3,
+          "explanation": "المرجع: The Human Aspects of Project Management: Human Resources Skills for the Project Manager by Vijay K. Verma, Volume Two, page 152."
+        },
+        {
+          "id": "lehmann-q137",
+          "level": "easy",
+          "question": "When control charts are used, outliers are…137",
+          "options": [
+            "…singular measurements outside the bandwidth between an upper and lower control limit.",
+            "…a typical result of a rare random cause which is difficult to replicate and to verify.",
+            "…insignificant results, often measurement errors, the causes of which should not be further investigated.",
+            "…measurements inconsistent with a run of 7 results over or under a mean value."
+          ],
+          "correctIndex": 0,
+          "explanation": "المرجع: Managing Project Quality by Timothy J. Kloppenborg and Joseph A. Petrick, page 70. 103"
+        },
+        {
+          "id": "lehmann-q143",
+          "level": "hard",
+          "question": "You are project manager for a strategic project with a multi-million dollars value assigned by a company that is listed at a US stock exchange. Recent Earned Value Analysis after app. 25% completion told you that your project has a CPI of 0.76. What should you do right now?",
+          "options": [
+            "The variance is a signal of a sound project which is well under budget. There is no need for action.",
+            "A project that much under budget may be a problem for negotiating future budgets. Try to spend money somewhere else.",
+            "You should immediately inform your management, which should then assess whether this CPI constitutes a material financial issue.",
+            "It is still early in the project and data are yet inaccurate. Wait a while and allow numbers from the project to stabilize."
+          ],
+          "correctIndex": 2,
+          "explanation": "المرجع: Earned Value Project Management by Quentin W. Fleming and Joel M. Koppelman, Fourth Edition, page 152."
+        },
+        {
+          "id": "lehmann-q146",
+          "level": "easy",
+          "question": "When you perform quality assurance in your project, which technique could you typically use?",
+          "options": [
+            "Code review",
+            "Quality audit",
+            "Inspection",
+            "Scope verification"
+          ],
+          "correctIndex": 1,
+          "explanation": "المرجع: PMBOK® Guide 6th Edition, pages 247, 549. 104"
+        },
+        {
+          "id": "lehmann-q150",
+          "level": "easy",
+          "question": "Which of the following is not a forecasting method?",
+          "options": [
+            "Scenario building",
+            "Simulation",
+            "Time series method",
+            "Variance analysis"
+          ],
+          "correctIndex": 3,
+          "explanation": "المرجع: PMBOK® Guide 6th Edition, page 111."
+        },
+        {
+          "id": "lehmann-q155",
+          "level": "easy",
+          "question": "A Pareto chart helps focusing on…155",
+          "options": [
+            "…causes which create a repeating and often seasonal pattern of problems.",
+            "…the minority of causes, which create the majority of problems and defects.",
+            "…special causes of process variations which should be investigated to avoid type 1 errors.",
+            "…the standard deviation of process variation which should not be investigated."
+          ],
+          "correctIndex": 1,
+          "explanation": "المرجع: Project Management, A Systems Approach to Planning, Scheduling and Controlling by Harold Kerzner, 12th edition, pages 714-716."
+        },
+        {
+          "id": "lehmann-q157",
+          "level": "hard",
+          "question": "What is wrong in this diagram? PV Data $ date EV AC Project weeks 157",
+          "options": [
+            "The data date must be accurately between weeks.",
+            "AC cannot be higher than PV when EV is lower.",
+            "EV cannot be assessed beyond the data date.",
+            "PV cannot be assessed beyond the data date."
+          ],
+          "correctIndex": 2,
+          "explanation": "المرجع: PMBOK® Guide 6th Edition, page 264."
+        },
+        {
+          "id": "lehmann-q158",
+          "level": "easy",
+          "question": "What is the purpose of control limits?",
+          "options": [
+            "Identifying “rule of seven” patterns in control charts.",
+            "Increasing process quality from 3σ to 6σ.",
+            "Specifying the range of acceptable results.",
+            "Identifying whether the process is in control or not."
+          ],
+          "correctIndex": 3,
+          "explanation": "المرجع: PMBOK® Guide 6th Edition, page 274."
+        },
+        {
+          "id": "lehmann-q160",
+          "level": "hard",
+          "question": "You are managing a project that bears a risk to either permanently damage or strongly improve the reputation of the performing organization with its customer base. You decide to call a meeting with the organization’s management to make them aware of the issue and discuss possible options. Which risk response strategy are you applying?",
+          "options": [
+            "Active acceptance",
+            "Transfer",
+            "Passive acceptance",
+            "Escalate"
+          ],
+          "correctIndex": 3,
+          "explanation": "المرجع: PMBOK® Guide 6th Edition, pages 442, 444."
+        },
+        {
+          "id": "lehmann-q161",
+          "level": "hard",
+          "question": "A project manager has developed various risk response strategies for a high-risk project. When presenting some of the results, she emphasizes the importance of putting the responses into action instead of leaving them documented as a plan that might get forgotten. Which process is she most likely referring to?",
+          "options": [
+            "Plan risk management",
+            "Implement risk responses",
+            "Monitor risks",
+            "Plan risk responses"
+          ],
+          "correctIndex": 1,
+          "explanation": "المرجع: PMBOK® Guide 6th Edition, page 449."
+        },
+        {
+          "id": "lehmann-q170",
+          "level": "easy",
+          "question": "Stakeholders such as suppliers, customers, and end users have what in common?",
+          "options": [
+            "They are in a similar sphere of influence by project managers",
+            "They always share common goals",
+            "They usually speak the same language",
+            "They usually don’t interfere with project management"
+          ],
+          "correctIndex": 0,
+          "explanation": "المرجع: PMBOK® Guide 6th Edition, page 53."
+        },
+        {
+          "id": "lehmann-q177",
+          "level": "easy",
+          "question": "Which is not one of the five levels of increasingly effective quality management?",
+          "options": [
+            "Detect and correct defects before the customer finds them",
+            "Use quality assurance to examine and correct the process itself",
+            "Create a culture committed to quality throughout the organization",
+            "Write test cases before writing software code"
+          ],
+          "correctIndex": 3,
+          "explanation": "المرجع: PMBOK® Guide 6th Edition, page 275."
         }
       ]
     },
@@ -2633,6 +4687,149 @@
           ],
           "correctIndex": 2,
           "explanation": "This is fee for service paid to a government official and is therefore not a bribe."
+        },
+        {
+          "id": "lehmann-q027",
+          "level": "easy",
+          "question": "Projects frequently do not meet customer expectations for which of the following reasons?",
+          "options": [
+            "Poor risk management by the contractor running the project",
+            "Poor technical ability of the contractor running the project for the customer",
+            "Technical inability and poor risk management by the contractor",
+            "Unclear scope definition by the customer for whom the project is performed"
+          ],
+          "correctIndex": 2,
+          "explanation": "المرجع: Project Management, A Systems Approach to Planning, Scheduling and Controlling by Harold Kerzner, 12th edition, page 593."
+        },
+        {
+          "id": "lehmann-q057",
+          "level": "easy",
+          "question": "Crashing describes a technique to speed up a project by…57",
+          "options": [
+            "…reallocating existing resources or assigning additional resources to the project.",
+            "…overlapping activities which were originally planned to be done in sequence.",
+            "…reducing the number of features of the product in order to reduce development work.",
+            "…reducing the duration estimates for activities to increase the pressure applied to the staff."
+          ],
+          "correctIndex": 0,
+          "explanation": "المرجع: PMBOK® Guide 6th Edition, page 703."
+        },
+        {
+          "id": "lehmann-q076",
+          "level": "easy",
+          "question": "What is least important when it comes to archiving project records?",
+          "options": [
+            "A well-designed records management system",
+            "Integration of the archive with business software",
+            "Updated records reflecting final results",
+            "Easy availability of information for future use"
+          ],
+          "correctIndex": 1,
+          "explanation": "المرجع: PMBOK® Guide 6th Edition, page 104."
+        },
+        {
+          "id": "lehmann-q090",
+          "level": "medium",
+          "question": "A request, demand or assertion of a contract partner for consideration, compensation or payment under a legally binding contract, such as a disputed change, is often referred to as a____.",
+          "options": [
+            "Claim",
+            "Trial",
+            "Refinement",
+            "Audit"
+          ],
+          "correctIndex": 0,
+          "explanation": "المرجع: PMBOK® Guide 6th Edition, page 498. 98"
+        },
+        {
+          "id": "lehmann-q100",
+          "level": "hard",
+          "question": "You finished your project for a customer to implement a business software solution. All deliverables have been handed over and are already in use by the company. There is a minor last payment to be made by the customer on contract closure. You believe that it is now getting time to finally close the contract with the customer and then administratively close down the project. You approached the customer this morning and found that they are reluctant to finally close the contract. But you do not exactly understand why. What should you not do?",
+          "options": [
+            "Update all documents related to the project and the product so that they reflect the final specifications and the status of both the project and the product. Organize them in a fashion for easy access.",
+            "Focus on your next project and leave the customer the time to get familiar with the software. They will come back to you anyway after some weeks to terminate the contract and make the last payment.",
+            "Based on the contract and all documents which are relevant for the formal relationship with the customer, write a close-out report describing what was contractually required and what was obtained.",
+            "Make sure that there are no active purchase orders against the contract or any other pending obligations, requests or claims from either party which need to be resolved. Then insist on formal contract closure."
+          ],
+          "correctIndex": 1,
+          "explanation": "المرجع: PMBOK® Guide 6th Edition, pages 127-128. 99"
+        },
+        {
+          "id": "lehmann-q107",
+          "level": "easy",
+          "question": "What should not be your thoughts when you are organizing documents as lessons learned?",
+          "options": [
+            "Devise the lessons learned documentation in a wording which is easy to understand for a reader who is not familiar with the project.",
+            "Lessons learned must detail how certain groups or persons caused failures and delays, especially if they are inside the own organization.",
+            "Writing lessons learned should be an exercise enhancing your personal learning experience. Make sure you grasp what you are writing down.",
+            "Keep lessons learned documents at a place where they are easy to access and to retrieve for those who may later need the information."
+          ],
+          "correctIndex": 1,
+          "explanation": "المرجع: PMBOK® Guide 6th Edition, page 104."
+        },
+        {
+          "id": "lehmann-q115",
+          "level": "easy",
+          "question": "You are planning quality management for your project. How can a process flowchart help you?",
+          "options": [
+            "It may help identify outliers.",
+            "It may help understand the COQ in a process.",
+            "It may help spot accountable staff.",
+            "It may help react later."
+          ],
+          "correctIndex": 1,
+          "explanation": "المرجع: PMBOK® Guide 6th Edition, page 323."
+        },
+        {
+          "id": "lehmann-q131",
+          "level": "easy",
+          "question": "Which is not an example of a correctly handled contract closure procedure?",
+          "options": [
+            "Early termination of a contract because of a repudiatory breach",
+            "Settling and finally closing the contract agreement",
+            "Product verification by stakeholders and administrative closure",
+            "Early termination of a contract because of an immaterial breach"
+          ],
+          "correctIndex": 3,
+          "explanation": "المرجع: Project Manager Street Smarts: A Real World Guide to PMP Skills, by Linda Kretz Zaval and Terri A. Wagner, page 669."
+        },
+        {
+          "id": "lehmann-q141",
+          "level": "easy",
+          "question": "Which is not a type of project review meeting?",
+          "options": [
+            "Team review meetings",
+            "Project status meetings",
+            "Executive management review meetings",
+            "Customer review meetings"
+          ],
+          "correctIndex": 1,
+          "explanation": "المرجع: Project Management, A Systems Approach to Planning, Scheduling and Controlling by Harold Kerzner, 12th edition, page 212."
+        },
+        {
+          "id": "lehmann-q153",
+          "level": "medium",
+          "question": "Your project work has generally been finished and you want to commence a solid closing process for the project. What must have been attained to begin this process?",
+          "options": [
+            "The deliverables of the project must have been accepted.",
+            "The organizational process assets must have been updated.",
+            "The final product, service or result transition must have been finished.",
+            "Lessons learned must have been organized into a data base."
+          ],
+          "correctIndex": 0,
+          "explanation": "المرجع: PMBOK® Guide 6th Edition, page 121."
+        },
+        {
+          "id": "lehmann-q175",
+          "level": "easy",
+          "question": "What is a product backlog?",
+          "options": [
+            "A description of what is to be delivered in a product",
+            "A to-do list of tasks to be finished",
+            "A breakdown of scope for an iteration",
+            "A time-phased list of technical requirements"
+          ],
+          "correctIndex": 0,
+          "explanation": "المرجع: PMBOK® Guide 6th Edition, page 131."
         }
       ]
     }
