@@ -4,8 +4,8 @@
   "description": "تطبيق تدريب تفاعلي لأسئلة اختبار PMP مقسمة حسب الفصول ومستوى الصعوبة",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#0f172a",
-  "theme_color": "#3b5bdb",
+  "background_color": "#0B1524",
+  "theme_color": "#0B1524",
   "orientation": "portrait",
   "icons": [
     {

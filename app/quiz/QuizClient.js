@@ -24,9 +24,9 @@ export default function QuizClient() {
 
   if (questions.length === 0) {
     return (
-      <main className="max-w-2xl mx-auto px-4 py-8 text-center">
-        <p className="mb-4">ما في أسئلة متاحة لهذا الاختيار بعد.</p>
-        <Link href="/" className="text-brand-500 underline">
+      <main className="max-w-2xl mx-auto px-5 py-10 text-center">
+        <p className="mb-4 text-ink-dim">ما في أسئلة متاحة لهذا الاختيار بعد.</p>
+        <Link href="/" className="text-gold underline">
           ارجع للرئيسية
         </Link>
       </main>
@@ -48,20 +48,20 @@ export default function QuizClient() {
   }
 
   return (
-    <main className="max-w-2xl mx-auto px-4 py-6">
-      <div className="flex items-center justify-between mb-4">
-        <Link href="/" className="text-sm text-slate-400">
+    <main className="max-w-2xl mx-auto px-5 py-6">
+      <div className="flex items-center justify-between mb-5 pb-4 border-b border-bp-line">
+        <Link href="/" className="text-sm text-ink-faint hover:text-ink-dim">
           ← الرئيسية
         </Link>
-        <span className="text-sm text-slate-400">
-          سؤال {index + 1} من {questions.length}
+        <span className="font-mono text-xs text-ink-faint">
+          {String(index + 1).padStart(2, "0")} / {String(questions.length).padStart(2, "0")}
         </span>
       </div>
 
       <div className="flex items-center gap-2 mb-4">
-        <h1 className="text-lg font-semibold">{chapterTitle}</h1>
-        <span className="text-xs bg-slate-800 px-2 py-1 rounded-full text-slate-300">
-          {level === RANDOM ? "مستوى عشوائي" : `مستوى ${LEVEL_LABELS[level]}`}
+        <h1 className="text-base font-semibold text-ink">{chapterTitle}</h1>
+        <span className="text-xs border border-bp-line rounded-full px-2 py-0.5 text-ink-faint font-mono">
+          {level === RANDOM ? "عشوائي" : LEVEL_LABELS[level]}
         </span>
       </div>
 
@@ -71,28 +71,28 @@ export default function QuizClient() {
         <button
           onClick={() => setIndex((i) => Math.max(0, i - 1))}
           disabled={index === 0}
-          className="rounded-xl border border-slate-700 px-5 py-2 font-semibold text-slate-300 disabled:opacity-40 disabled:cursor-not-allowed hover:border-slate-500"
+          className="rounded-md border border-bp-line px-5 py-2.5 font-medium text-ink-dim disabled:opacity-30 disabled:cursor-not-allowed hover:border-ink-faint transition"
         >
-          ← السؤال السابق
+          ← السابق
         </button>
 
-        <span className="text-sm text-slate-400 whitespace-nowrap">
-          صحيح: {sessionCorrect} / {sessionAnswered}
+        <span className="font-mono text-xs text-ink-faint whitespace-nowrap">
+          {sessionCorrect}/{sessionAnswered} صحيح
         </span>
 
         {!isLast ? (
           <button
             onClick={() => setIndex((i) => i + 1)}
-            className="rounded-xl bg-brand-600 hover:bg-brand-700 px-5 py-2 font-semibold"
+            className="rounded-md bg-gold text-bp-bg px-5 py-2.5 font-semibold hover:bg-gold-bright transition"
           >
-            السؤال التالي →
+            التالي →
           </button>
         ) : (
           <Link
             href="/stats"
-            className="rounded-xl bg-emerald-600 hover:bg-emerald-700 px-5 py-2 font-semibold"
+            className="rounded-md bg-good text-bp-bg px-5 py-2.5 font-semibold hover:opacity-90 transition"
           >
-            انتهيت — شاهد إحصائياتك
+            انتهيت
           </Link>
         )}
       </div>

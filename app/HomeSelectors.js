@@ -4,100 +4,111 @@ import { useState } from "react";
 import { useRouter } from "next/navigation";
 
 const CHAPTER_LABELS = {
-  ch01: "الفصل 1",
-  ch02: "الفصل 2",
-  ch03: "الفصل 3",
-  ch04: "الفصل 4",
-  ch05: "الفصل 5",
-  ch06: "الفصل 6",
+  ch01: "١",
+  ch02: "٢",
+  ch03: "٣",
+  ch04: "٤",
+  ch05: "٥",
+  ch06: "٦",
 };
 
-const LEVEL_LABELS = {
-  easy: "سهل",
-  medium: "متوسط",
-  hard: "صعب",
-};
+const LEVELS = [
+  { id: "easy", label: "سهل" },
+  { id: "medium", label: "متوسط" },
+  { id: "hard", label: "صعب" },
+];
 
 export default function HomeSelectors({ chapters }) {
   const router = useRouter();
   const [chapterId, setChapterId] = useState("random");
   const [level, setLevel] = useState("random");
 
+  const activeChapter = chapters.find((c) => c.id === chapterId);
+  const questionCount =
+    chapterId === "random"
+      ? chapters.reduce((sum, c) => sum + c.questions.length, 0)
+      : activeChapter?.questions.length || 0;
+
   function startQuiz() {
     router.push(`/quiz?chapter=${chapterId}&level=${level}`);
   }
 
   return (
-    <div className="flex flex-col gap-6">
+    <div className="flex flex-col gap-8">
       <section>
-        <h2 className="text-sm font-semibold text-slate-400 mb-2">اختر الفصل</h2>
-        <div className="grid grid-cols-3 gap-2">
+        <div className="flex items-baseline justify-between mb-3">
+          <h2 className="font-mono text-xs tracking-wide text-ink-faint">01 / الفصل</h2>
+          <span className="font-mono text-xs text-ink-faint">
+            {questionCount} سؤال متاح
+          </span>
+        </div>
+
+        <div className="grid grid-cols-4 gap-2">
+          <button
+            onClick={() => setChapterId("random")}
+            className={`col-span-2 rounded-md border py-3.5 text-sm font-medium transition ${
+              chapterId === "random"
+                ? "border-gold bg-gold/10 text-gold"
+                : "border-bp-line text-ink-dim hover:border-ink-faint"
+            }`}
+          >
+            كل الفصول
+          </button>
           {chapters.map((chapter) => (
             <button
               key={chapter.id}
               onClick={() => setChapterId(chapter.id)}
-              className={`rounded-xl border py-3 text-sm font-medium transition ${
-                chapterId === chapter.id
-                  ? "border-brand-500 bg-brand-500/10 text-white"
-                  : "border-slate-700 text-slate-300 hover:border-slate-500"
-              }`}
               title={chapter.title}
+              className={`rounded-md border py-3.5 text-sm font-medium transition font-mono ${
+                chapterId === chapter.id
+                  ? "border-gold bg-gold/10 text-gold"
+                  : "border-bp-line text-ink-dim hover:border-ink-faint"
+              }`}
             >
-              {CHAPTER_LABELS[chapter.id] || chapter.title}
+              {CHAPTER_LABELS[chapter.id] || chapter.id}
             </button>
           ))}
-          <button
-            onClick={() => setChapterId("random")}
-            className={`rounded-xl border py-3 text-sm font-medium transition ${
-              chapterId === "random"
-                ? "border-brand-500 bg-brand-500/10 text-white"
-                : "border-slate-700 text-slate-300 hover:border-slate-500"
-            }`}
-          >
-            🎲 عشوائي
-          </button>
         </div>
-        {chapterId !== "random" && (
-          <p className="text-xs text-slate-500 mt-2">
-            {chapters.find((c) => c.id === chapterId)?.title}
-          </p>
+
+        {activeChapter && (
+          <p className="text-xs text-ink-faint mt-2 leading-relaxed">{activeChapter.title}</p>
         )}
       </section>
 
       <section>
-        <h2 className="text-sm font-semibold text-slate-400 mb-2">اختر مستوى الصعوبة</h2>
+        <h2 className="font-mono text-xs tracking-wide text-ink-faint mb-3">02 / الصعوبة</h2>
         <div className="grid grid-cols-4 gap-2">
-          {["easy", "medium", "hard"].map((lvl) => (
+          {LEVELS.map((lvl) => (
             <button
-              key={lvl}
-              onClick={() => setLevel(lvl)}
-              className={`rounded-xl border py-3 text-sm font-medium transition ${
-                level === lvl
-                  ? "border-brand-500 bg-brand-500/10 text-white"
-                  : "border-slate-700 text-slate-300 hover:border-slate-500"
+              key={lvl.id}
+              onClick={() => setLevel(lvl.id)}
+              className={`rounded-md border py-3.5 text-sm font-medium transition ${
+                level === lvl.id
+                  ? "border-gold bg-gold/10 text-gold"
+                  : "border-bp-line text-ink-dim hover:border-ink-faint"
               }`}
             >
-              {LEVEL_LABELS[lvl]}
+              {lvl.label}
             </button>
           ))}
           <button
             onClick={() => setLevel("random")}
-            className={`rounded-xl border py-3 text-sm font-medium transition ${
+            className={`rounded-md border py-3.5 text-sm font-medium transition ${
               level === "random"
-                ? "border-brand-500 bg-brand-500/10 text-white"
-                : "border-slate-700 text-slate-300 hover:border-slate-500"
+                ? "border-gold bg-gold/10 text-gold"
+                : "border-bp-line text-ink-dim hover:border-ink-faint"
             }`}
           >
-            🎲 عشوائي
+            عشوائي
           </button>
         </div>
       </section>
 
       <button
         onClick={startQuiz}
-        className="rounded-xl bg-emerald-600 hover:bg-emerald-700 py-3 font-semibold text-lg mt-2"
+        className="rounded-md bg-gold text-bp-bg py-4 font-semibold text-base tracking-wide hover:bg-gold-bright transition"
       >
-        ابدأ التدريب ←
+        ابدأ التدريب
       </button>
     </div>
   );

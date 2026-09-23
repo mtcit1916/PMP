@@ -7,7 +7,7 @@ export const metadata = {
 };
 
 export const viewport = {
-  themeColor: "#3b5bdb",
+  themeColor: "#0B1524",
   width: "device-width",
   initialScale: 1,
 };
@@ -17,8 +17,14 @@ export default function RootLayout({ children }) {
     <html lang="ar" dir="rtl">
       <head>
         <link rel="apple-touch-icon" href="/icons/icon-192.png" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap"
+          rel="stylesheet"
+        />
       </head>
-      <body className="bg-slate-950 text-slate-100 min-h-screen">
+      <body className="blueprint-bg text-ink min-h-screen font-sans">
         {children}
         <script
           dangerouslySetInnerHTML={{

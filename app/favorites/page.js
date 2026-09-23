@@ -14,7 +14,7 @@ export default function FavoritesPage() {
   }, []);
 
   if (questions === null) {
-    return <main className="max-w-2xl mx-auto px-4 py-8 text-center">جاري التحميل...</main>;
+    return <main className="max-w-2xl mx-auto px-5 py-10 text-center text-ink-dim">جاري التحميل...</main>;
   }
 
   return (

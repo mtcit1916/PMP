@@ -9,4 +9,47 @@ html {
 body {
   padding-top: env(safe-area-inset-top, 0px);
   padding-bottom: env(safe-area-inset-bottom, 0px);
+  background-color: #0B1524;
+}
+
+/* خلفية شبكية خافتة تحاكي ورق المخططات الهندسية */
+.blueprint-bg {
+  background-color: #0B1524;
+  background-image:
+    linear-gradient(rgba(34, 51, 79, 0.5) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(34, 51, 79, 0.5) 1px, transparent 1px);
+  background-size: 28px 28px;
+  background-position: -1px -1px;
+}
+
+/* بطاقة بعلامات زاوية تحاكي مخططات المهندسين */
+.corner-card {
+  position: relative;
+}
+.corner-card::before,
+.corner-card::after,
+.corner-card > .corner-tl,
+.corner-card > .corner-br {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-color: #C9A227;
+  opacity: 0.85;
+}
+.corner-card::before {
+  top: -1px;
+  right: -1px;
+  border-top: 2px solid #C9A227;
+  border-right: 2px solid #C9A227;
+}
+.corner-card::after {
+  bottom: -1px;
+  left: -1px;
+  border-bottom: 2px solid #C9A227;
+  border-left: 2px solid #C9A227;
+}
+
+.text-shadow-none {
+  text-shadow: none;
 }

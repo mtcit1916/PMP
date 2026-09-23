@@ -23,7 +23,7 @@ export default function MockExamPage() {
   const [finished, setFinished] = useState(false);
 
   useEffect(() => {
-    const all = getRandomMockQuestions(); // كل الأسئلة المتاحة، كما تم الاتفاق
+    const all = getRandomMockQuestions();
     setQuestions(all);
     setSecondsLeft(all.length * SECONDS_PER_QUESTION);
   }, []);
@@ -39,19 +39,27 @@ export default function MockExamPage() {
   }, [secondsLeft, finished, questions]);
 
   if (!questions || secondsLeft === null) {
-    return <main className="max-w-2xl mx-auto px-4 py-8 text-center">جاري تجهيز الاختبار...</main>;
+    return (
+      <main className="max-w-2xl mx-auto px-5 py-10 text-center text-ink-dim">
+        جاري تجهيز الاختبار...
+      </main>
+    );
   }
 
   if (finished) {
+    const accuracy = answeredCount ? Math.round((correctCount / answeredCount) * 100) : 0;
     return (
-      <main className="max-w-2xl mx-auto px-4 py-8 text-center">
-        <h1 className="text-xl font-bold mb-3">انتهى الاختبار التجريبي</h1>
-        <p className="text-slate-300 mb-6">
-          أجبت على {answeredCount} من {questions.length} سؤال، وكانت{" "}
-          {correctCount} إجابة صحيحة (
-          {answeredCount ? Math.round((correctCount / answeredCount) * 100) : 0}%).
+      <main className="max-w-2xl mx-auto px-5 py-10 text-center">
+        <p className="font-mono text-xs tracking-wide text-gold mb-2">النتيجة النهائية</p>
+        <p className="font-mono text-5xl text-ink mb-3">{accuracy}%</p>
+        <h1 className="text-lg font-semibold mb-2">انتهى الاختبار التجريبي</h1>
+        <p className="text-ink-dim mb-8">
+          أجبت على {answeredCount} من {questions.length} سؤال، وكانت {correctCount} إجابة صحيحة.
         </p>
-        <Link href="/" className="rounded-xl bg-brand-600 hover:bg-brand-700 px-5 py-2 font-semibold">
+        <Link
+          href="/"
+          className="inline-block rounded-md bg-gold text-bp-bg px-6 py-3 font-semibold hover:bg-gold-bright transition"
+        >
           العودة للرئيسية
         </Link>
       </main>
@@ -73,18 +81,19 @@ export default function MockExamPage() {
   }
 
   return (
-    <main className="max-w-2xl mx-auto px-4 py-6">
-      <div className="flex items-center justify-between mb-4">
-        <Link href="/" className="text-sm text-slate-400">
+    <main className="max-w-2xl mx-auto px-5 py-6">
+      <div className="flex items-center justify-between mb-5 pb-4 border-b border-bp-line">
+        <Link href="/" className="text-sm text-ink-faint hover:text-ink-dim">
           ← خروج
         </Link>
-        <span className="text-sm font-mono bg-slate-800 px-3 py-1 rounded-full">
-          ⏱ {formatTime(secondsLeft)}
+        <span className="font-mono text-sm bg-surface border border-bp-line px-3 py-1 rounded-full text-gold">
+          {formatTime(secondsLeft)}
         </span>
       </div>
 
-      <p className="text-sm text-slate-400 mb-3">
-        سؤال {index + 1} من {questions.length} — {current.chapterTitle}
+      <p className="font-mono text-xs text-ink-faint mb-3">
+        {String(index + 1).padStart(3, "0")} / {String(questions.length).padStart(3, "0")} —{" "}
+        {current.chapterTitle}
       </p>
 
       <QuestionCard key={current.id} question={current} onAnswered={handleAnswered} />
@@ -93,13 +102,13 @@ export default function MockExamPage() {
         <button
           onClick={() => setIndex((i) => Math.max(0, i - 1))}
           disabled={index === 0}
-          className="rounded-xl border border-slate-700 px-5 py-2 font-semibold text-slate-300 disabled:opacity-40 disabled:cursor-not-allowed hover:border-slate-500"
+          className="rounded-md border border-bp-line px-5 py-2.5 font-medium text-ink-dim disabled:opacity-30 disabled:cursor-not-allowed hover:border-ink-faint transition"
         >
           ← السابق
         </button>
         <button
           onClick={() => (isLast ? setFinished(true) : setIndex((i) => i + 1))}
-          className="rounded-xl bg-brand-600 hover:bg-brand-700 px-5 py-2 font-semibold"
+          className="rounded-md bg-gold text-bp-bg px-5 py-2.5 font-semibold hover:bg-gold-bright transition"
         >
           {isLast ? "إنهاء الاختبار" : "التالي →"}
         </button>
