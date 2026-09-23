@@ -8,42 +8,36 @@ module.exports = {
     extend: {
       colors: {
         ink: {
-          DEFAULT: "#EDEFF3",
-          dim: "#93A2BC",
-          faint: "#5B6B87",
+          DEFAULT: "#F2F4F8",
+          dim: "#9DACC7",
+          faint: "#5F7195",
         },
         surface: {
-          DEFAULT: "#101E33",
-          alt: "#16273F",
-          raised: "#1C2E4A",
+          DEFAULT: "#152238",
+          alt: "#1C2E4C",
+          raised: "#25406A",
         },
         bp: {
-          bg: "#0B1524",
-          line: "#22334F",
+          bg: "#080E1A",
+          line: "#2C4568",
         },
         gold: {
-          DEFAULT: "#C9A227",
-          bright: "#E4C158",
+          DEFAULT: "#D4AC2B",
+          bright: "#F0C94E",
           dim: "#8A701C",
         },
         good: {
-          DEFAULT: "#4CAF7D",
+          DEFAULT: "#48B47F",
           dim: "#2E6B4C",
         },
         bad: {
-          DEFAULT: "#D96B5D",
+          DEFAULT: "#E1705F",
           dim: "#8C4038",
         },
       },
       fontFamily: {
         sans: ["'IBM Plex Sans Arabic'", "system-ui", "sans-serif"],
         mono: ["'IBM Plex Mono'", "ui-monospace", "monospace"],
-      },
-      backgroundImage: {
-        grid: "linear-gradient(rgba(34,51,79,0.55) 1px, transparent 1px), linear-gradient(90deg, rgba(34,51,79,0.55) 1px, transparent 1px)",
-      },
-      backgroundSize: {
-        grid: "28px 28px",
       },
     },
   },

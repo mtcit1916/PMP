@@ -9,17 +9,19 @@ html {
 body {
   padding-top: env(safe-area-inset-top, 0px);
   padding-bottom: env(safe-area-inset-bottom, 0px);
-  background-color: #0B1524;
+  background-color: #080E1A;
 }
 
-/* خلفية شبكية خافتة تحاكي ورق المخططات الهندسية */
+/* خلفية شبكية + توهج علوي خافت يكسر التسطيح بدل لون واحد متجانس */
 .blueprint-bg {
-  background-color: #0B1524;
+  background-color: #080E1A;
   background-image:
-    linear-gradient(rgba(34, 51, 79, 0.5) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(34, 51, 79, 0.5) 1px, transparent 1px);
-  background-size: 28px 28px;
-  background-position: -1px -1px;
+    radial-gradient(1200px 600px at 50% -10%, rgba(212, 172, 43, 0.10), transparent 60%),
+    linear-gradient(rgba(44, 69, 104, 0.6) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(44, 69, 104, 0.6) 1px, transparent 1px);
+  background-size: auto, 28px 28px, 28px 28px;
+  background-position: center, -1px -1px, -1px -1px;
+  background-attachment: fixed, scroll, scroll;
 }
 
 /* بطاقة بعلامات زاوية تحاكي مخططات المهندسين */
@@ -27,29 +29,22 @@ body {
   position: relative;
 }
 .corner-card::before,
-.corner-card::after,
-.corner-card > .corner-tl,
-.corner-card > .corner-br {
+.corner-card::after {
   content: "";
   position: absolute;
   width: 10px;
   height: 10px;
-  border-color: #C9A227;
   opacity: 0.85;
 }
 .corner-card::before {
   top: -1px;
   right: -1px;
-  border-top: 2px solid #C9A227;
-  border-right: 2px solid #C9A227;
+  border-top: 2px solid #D4AC2B;
+  border-right: 2px solid #D4AC2B;
 }
 .corner-card::after {
   bottom: -1px;
   left: -1px;
-  border-bottom: 2px solid #C9A227;
-  border-left: 2px solid #C9A227;
-}
-
-.text-shadow-none {
-  text-shadow: none;
+  border-bottom: 2px solid #D4AC2B;
+  border-left: 2px solid #D4AC2B;
 }
