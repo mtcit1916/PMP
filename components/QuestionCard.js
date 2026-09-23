@@ -29,7 +29,9 @@ export default function QuestionCard({ question, onAnswered }) {
         </span>
       </div>
 
-      <p className="text-lg font-medium leading-relaxed mb-4">{question.question}</p>
+      <p className="text-lg font-medium leading-relaxed mb-4 whitespace-normal break-words [overflow-wrap:anywhere]">
+        {question.question}
+      </p>
 
       <div className="flex flex-col gap-2">
         {question.options.map((option, index) => {
@@ -45,7 +47,7 @@ export default function QuestionCard({ question, onAnswered }) {
               key={index}
               onClick={() => handleChoose(index)}
               disabled={revealed}
-              className={`text-right rounded-xl border px-4 py-3 transition ${style}`}
+              className={`text-right rounded-xl border px-4 py-3 transition leading-relaxed whitespace-normal break-words [overflow-wrap:anywhere] ${style}`}
             >
               {option}
             </button>

@@ -88,7 +88,14 @@ export default function MockExamPage() {
 
       <QuestionCard key={current.id} question={current} onAnswered={handleAnswered} />
 
-      <div className="flex justify-end mt-5">
+      <div className="flex items-center justify-between mt-5 gap-3">
+        <button
+          onClick={() => setIndex((i) => Math.max(0, i - 1))}
+          disabled={index === 0}
+          className="rounded-xl border border-slate-700 px-5 py-2 font-semibold text-slate-300 disabled:opacity-40 disabled:cursor-not-allowed hover:border-slate-500"
+        >
+          ← السابق
+        </button>
         <button
           onClick={() => (isLast ? setFinished(true) : setIndex((i) => i + 1))}
           className="rounded-xl bg-brand-600 hover:bg-brand-700 px-5 py-2 font-semibold"
